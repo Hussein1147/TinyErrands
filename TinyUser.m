@@ -10,6 +10,7 @@
 #import "AFHTTPRequestOperationManager.h"
 #define TINY_CREATE_POST_URL @"https://tinyerrands-jobos.rhcloud.com/createUser"
 #define TINY_ALL_USER_POST_URL @"https://tinyerrands-jobos.rhcloud.com/get_All_Users"
+#define TINY_FOLOW_POST_URL @"https://tinyerrands-jobos.rhcloud.com/follow"
 
 @interface TinyUser()
 
@@ -105,6 +106,33 @@
          }
      }];
     
+}
+
+-(void)follow:(NSString *)currentUserEmail friend:(NSString *)email completion:(void (^) (id, NSError *error))completionHandler{
+    
+    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+    manager.requestSerializer = [AFJSONRequestSerializer serializer];
+    manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/json", @"text/javascript",@"text/html", nil];;
+    NSMutableDictionary* postRequestDictionary = [[NSMutableDictionary alloc] init];
+    postRequestDictionary[@"currentUserEmail"] = self.email;
+    postRequestDictionary[@"userFollowedEmail"]=email;
+    [manager POST:TINY_FOLOW_POST_URL parameters:postRequestDictionary
+          success:^(AFHTTPRequestOperation *operation, id responseObject)
+     {
+         if (completionHandler) {
+             completionHandler(responseObject,nil);
+         }
+         
+     }
+          failure:
+     ^(AFHTTPRequestOperation *operation, NSError *error) {
+         if (completionHandler) {
+             completionHandler([operation responseString],nil);
+         }
+     }];
+    
+
+
 }
 
  @end

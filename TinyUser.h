@@ -24,10 +24,11 @@
 
 -(NSMutableArray*)loadFriends:(NSString *)email;
 -(NSMutableArray *)loadFollowedPosts:(NSString *)email;
--(void)follow:(NSString *)currentUserEmail friend:(NSString*)email;
+-(void)follow:(NSString *)currentUserEmail friend:(NSString *)email completion:(void (^) (id responseObject, NSError *error))completionHandler;
 -(void)addPost:(NSString *)currentUserEmail post:(NSString *)postBody;
 -(NSDictionary *)likePost:(NSString *)currentUserEmail postId:(int)iD;
 -(void)signUp:(void (^) (id responseObject, NSError *error))completionHandler;
 -(void)getAllUsers:(void (^)(id responseObject, NSError *error))completionHandler;
 
 @end
+

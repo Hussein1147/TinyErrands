@@ -7,18 +7,17 @@
 //
 
 #import "EditFriendsViewController.h"
-#import "TinyUser.h"
 @interface EditFriendsViewController()
-@property (nonatomic,strong) NSMutableArray *tUsers;
+@property (nonatomic,strong) NSMutableArray *allUsers;
 @end
 
 @implementation EditFriendsViewController
 
--(NSMutableArray *)tUsers{
+-(NSMutableArray *)allUsers{
 
-    if (!_tUsers)_tUsers = [[NSMutableArray alloc]init];
+    if (!_allUsers)_allUsers = [[NSMutableArray alloc]init];
     
-    return _tUsers;
+    return _allUsers;
 }
 
 -(void)viewDidLoad{
@@ -26,32 +25,20 @@
     
     self.navigationItem.title =@"Edit Friends";
     
-    PFQuery *query = [PFUser query];
-    [query orderByAscending:@"username"];
-    [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
-        if (error) {
-            NSLog(@"Sorry, some problem have occured: %@ %@", error, [error userInfo]);
-        } else{
-            self.allUsers = objects;
-            [self.tableView reloadData];
-        }
-    }];
-    
-    
     self.currentUser = [PFUser currentUser];
-    TinyUser *tinyUser = [[TinyUser alloc]init];
-    tinyUser.email = self.currentUser.email;
-    [tinyUser getAllUsers:^(id responseObject, NSError *error) {
+    self.currentTinyUser = [[TinyUser alloc]init];
+    self.currentTinyUser.email = self.currentUser.email;
+    [self.currentTinyUser getAllUsers:^(id responseObject, NSError *error) {
         if (!responseObject) {
             NSLog(@"some error occured");
         }else{
     
             NSLog(@"%@", [[responseObject objectForKey:@"data"] firstObject]);
             
-            self.tUsers = [responseObject valueForKey:@"data"];
+            self.allUsers = [responseObject valueForKey:@"data"];
             [self.tableView reloadData];
-            NSLog(@"%lu",(unsigned long)[self.tUsers count]);
-            NSLog(@"%@",[[self.tUsers firstObject] valueForKey:@"name"]);
+            NSLog(@"%lu",(unsigned long)[self.allUsers count]);
+            NSLog(@"%@",[[self.allUsers firstObject] valueForKey:@"name"]);
         
         }
     }];
@@ -59,14 +46,14 @@
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     
-    return [self.tUsers count];
+    return [self.allUsers count];
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
 
     static NSString *cellIndentifier =@"Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIndentifier forIndexPath:indexPath];
-    NSDictionary *dict = [self.tUsers objectAtIndex:indexPath.row];
+    NSDictionary *dict = [self.allUsers objectAtIndex:indexPath.row];
     cell.textLabel.text = [dict valueForKey:@"name"];
     
     return cell;
@@ -79,8 +66,17 @@
     UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
 
     cell.accessoryType = UITableViewCellAccessoryCheckmark;
-    
-//    PFUser *user = [self.allUsers objectAtIndex:indexPath.row];
+    NSDictionary *user = [self.allUsers objectAtIndex:indexPath.row];
+    [self.currentTinyUser follow:self.currentUser.email friend:[user valueForKey:@"email"] completion:^(id reponseObject, NSError *error) {
+        if (!reponseObject) {
+            UIAlertView *arlertView = [[UIAlertView alloc]initWithTitle:@"Yaiks!" message:[error.userInfo objectForKey:@"error"] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+            [arlertView show];
+        }else{
+        
+            NSLog(@"%@", reponseObject);
+        }
+    }] ;
+    //    PFUser *user = [self.allUsers objectAtIndex:indexPath.row];
 //    PFRelation *friendsRelation = [self.currentUser relationForKey:@"friendsRelation"];
 //    [friendsRelation addObject:user];
 //    [self.currentUser saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
