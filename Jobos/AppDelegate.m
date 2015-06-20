@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "Stripe.h"
+#import <Parse/Parse.h>
 
 @interface AppDelegate ()
 
@@ -17,6 +19,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //Initialize Parse
+    NSString * const StripePublishableKey = @"pk_test_mjZsJALdxDNEccGVqWPBzX73" ;
+    [Stripe setDefaultPublishableKey:StripePublishableKey];
+        [Parse setApplicationId:@"cDOs3bsI3THNnkrgfA5AG3Lu3sPLRLVMaEdXO5HD"
+                      clientKey:@"sktDgZccG1FVtn09N1QrOCUHmnOuPJOtcfzsa5tx"];
     return YES;
 }
 

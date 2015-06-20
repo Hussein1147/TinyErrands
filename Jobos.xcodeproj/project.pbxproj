@@ -7,13 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C61373DEC1B8F3EF49062B2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 469F2D9750B1EA555F585479 /* libPods.a */; };
+		5825649C1AA456A00030A3BA /* plus-simple-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 582564981AA456A00030A3BA /* plus-simple-7.png */; };
+		5825649D1AA456A00030A3BA /* plus-simple-7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 582564991AA456A00030A3BA /* plus-simple-7@2x.png */; };
+		5825649E1AA456A00030A3BA /* spanner-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 5825649A1AA456A00030A3BA /* spanner-7.png */; };
+		5825649F1AA456A00030A3BA /* spanner-7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5825649B1AA456A00030A3BA /* spanner-7@2x.png */; };
+		582E85561B267C7F00108924 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582E85551B267C7F00108924 /* Social.framework */; };
+		582E85581B267CB800108924 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582E85571B267CB800108924 /* Accounts.framework */; };
+		582E855A1B267CC000108924 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582E85591B267CC000108924 /* Twitter.framework */; };
+		582E85611B26809200108924 /* TinyUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 582E85601B26809200108924 /* TinyUser.m */; };
 		5888240D1AA448720047F426 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5888240C1AA448720047F426 /* main.m */; };
 		588824101AA448720047F426 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5888240F1AA448720047F426 /* AppDelegate.m */; };
-		588824131AA448720047F426 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 588824121AA448720047F426 /* ViewController.m */; };
-		588824161AA448720047F426 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 588824141AA448720047F426 /* Main.storyboard */; };
 		588824181AA448720047F426 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 588824171AA448720047F426 /* Images.xcassets */; };
 		5888241B1AA448720047F426 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 588824191AA448720047F426 /* LaunchScreen.xib */; };
 		588824271AA448730047F426 /* JobosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 588824261AA448730047F426 /* JobosTests.m */; };
+		588824821AA449500047F426 /* EditPaymentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 588824301AA449500047F426 /* EditPaymentsViewController.m */; };
+		588824831AA449500047F426 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 588824321AA449500047F426 /* Main.storyboard */; };
+		588824841AA449500047F426 /* STPAPIClient+ApplePay.m in Sources */ = {isa = PBXBuildFile; fileRef = 588824401AA449500047F426 /* STPAPIClient+ApplePay.m */; };
+		588824851AA449500047F426 /* Stripe+ApplePay.m in Sources */ = {isa = PBXBuildFile; fileRef = 588824411AA449500047F426 /* Stripe+ApplePay.m */; };
+		588824861AA449500047F426 /* STPCheckoutInternalUIWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 588824451AA449500047F426 /* STPCheckoutInternalUIWebViewController.m */; };
+		588824871AA449500047F426 /* STPCheckoutOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 588824461AA449500047F426 /* STPCheckoutOptions.m */; };
+		588824881AA449500047F426 /* STPCheckoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 588824471AA449500047F426 /* STPCheckoutViewController.m */; };
+		588824891AA449500047F426 /* STPColorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5888244A1AA449500047F426 /* STPColorUtils.m */; };
+		5888248A1AA449500047F426 /* STPIOSCheckoutWebViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5888244C1AA449500047F426 /* STPIOSCheckoutWebViewAdapter.m */; };
+		5888248B1AA449500047F426 /* STPOSXCheckoutWebViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5888244E1AA449500047F426 /* STPOSXCheckoutWebViewAdapter.m */; };
+		5888248C1AA449500047F426 /* STPStrictURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 588824501AA449500047F426 /* STPStrictURLProtocol.m */; };
+		5888248D1AA449500047F426 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 588824511AA449500047F426 /* Info.plist */; };
+		5888248E1AA449500047F426 /* STPAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 5888245F1AA449500047F426 /* STPAPIClient.m */; };
+		5888248F1AA449500047F426 /* STPAPIConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 588824611AA449500047F426 /* STPAPIConnection.m */; };
+		588824901AA449500047F426 /* STPBankAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 588824621AA449500047F426 /* STPBankAccount.m */; };
+		588824911AA449500047F426 /* STPCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 588824631AA449500047F426 /* STPCard.m */; };
+		588824921AA449500047F426 /* STPFormEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 588824651AA449500047F426 /* STPFormEncoder.m */; };
+		588824931AA449500047F426 /* STPToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 588824661AA449500047F426 /* STPToken.m */; };
+		588824941AA449500047F426 /* StripeError.m in Sources */ = {isa = PBXBuildFile; fileRef = 588824671AA449500047F426 /* StripeError.m */; };
+		588824951AA449500047F426 /* FriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5888246B1AA449500047F426 /* FriendsViewController.m */; };
+		588824961AA449500047F426 /* EditFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5888246C1AA449500047F426 /* EditFriendsViewController.m */; };
+		588824971AA449500047F426 /* InboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5888246F1AA449500047F426 /* InboxViewController.m */; };
+		588824991AA449500047F426 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 588824721AA449500047F426 /* SignUpViewController.m */; };
+		5888249A1AA449500047F426 /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 588824731AA449500047F426 /* LogInViewController.m */; };
+		5888249B1AA449500047F426 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 588824781AA449500047F426 /* ViewController.m */; };
+		5888249C1AA449500047F426 /* PaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5888247A1AA449500047F426 /* PaymentViewController.m */; };
+		588824A61AA449D70047F426 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 588824A41AA449D70047F426 /* Bolts.framework */; };
+		588824A71AA449D70047F426 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 588824A51AA449D70047F426 /* Parse.framework */; };
+		588824AF1AA449FD0047F426 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 588824A81AA449FD0047F426 /* AudioToolbox.framework */; };
+		588824B61AA44A460047F426 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 588824AE1AA449FD0047F426 /* CFNetwork.framework */; };
+		588824C11AA44AF70047F426 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 588824B71AA44AF70047F426 /* CoreGraphics.framework */; };
+		588824C21AA44AF70047F426 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 588824B81AA44AF70047F426 /* CoreLocation.framework */; };
+		588824C31AA44AF70047F426 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 588824B91AA44AF70047F426 /* libsqlite3.dylib */; };
+		588824C41AA44AF70047F426 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 588824BA1AA44AF70047F426 /* libz.dylib */; };
+		588824C51AA44AF70047F426 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 588824BB1AA44AF70047F426 /* MobileCoreServices.framework */; };
+		588824C61AA44AF70047F426 /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 588824BC1AA44AF70047F426 /* PassKit.framework */; };
+		588824C71AA44AF70047F426 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 588824BD1AA44AF70047F426 /* QuartzCore.framework */; };
+		588824C81AA44AF70047F426 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 588824BE1AA44AF70047F426 /* Security.framework */; };
+		588824C91AA44AF70047F426 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 588824BF1AA44AF70047F426 /* StoreKit.framework */; };
+		588824CA1AA44AF70047F426 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 588824C01AA44AF70047F426 /* SystemConfiguration.framework */; };
+		5888250E1AA451D10047F426 /* camera-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 588825001AA451D10047F426 /* camera-7.png */; };
+		5888250F1AA451D10047F426 /* camera-7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 588825011AA451D10047F426 /* camera-7@2x.png */; };
+		588825101AA451D10047F426 /* circle-tick-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 588825021AA451D10047F426 /* circle-tick-7.png */; };
+		588825111AA451D10047F426 /* circle-tick-7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 588825031AA451D10047F426 /* circle-tick-7@2x.png */; };
+		588825121AA451D10047F426 /* circle-user-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 588825041AA451D10047F426 /* circle-user-7.png */; };
+		588825131AA451D10047F426 /* circle-user-7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 588825051AA451D10047F426 /* circle-user-7@2x.png */; };
+		588825141AA451D10047F426 /* connect-arrow-left-right-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 588825061AA451D10047F426 /* connect-arrow-left-right-7.png */; };
+		588825151AA451D10047F426 /* connect-arrow-left-right-7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 588825071AA451D10047F426 /* connect-arrow-left-right-7@2x.png */; };
+		588825161AA451D10047F426 /* credit-card-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 588825081AA451D10047F426 /* credit-card-7.png */; };
+		588825171AA451D10047F426 /* credit-card-7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 588825091AA451D10047F426 /* credit-card-7@2x.png */; };
+		588825181AA451D10047F426 /* earth-america-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 5888250A1AA451D10047F426 /* earth-america-7.png */; };
+		588825191AA451D10047F426 /* earth-america-7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5888250B1AA451D10047F426 /* earth-america-7@2x.png */; };
+		5888251A1AA451D10047F426 /* thumb-up-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 5888250C1AA451D10047F426 /* thumb-up-7.png */; };
+		5888251B1AA451D10047F426 /* thumb-up-7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5888250D1AA451D10047F426 /* thumb-up-7@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +88,114 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4009B77843D79085A66B3949 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		469F2D9750B1EA555F585479 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		48DF50002340782A860471E7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		582564981AA456A00030A3BA /* plus-simple-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus-simple-7.png"; sourceTree = "<group>"; };
+		582564991AA456A00030A3BA /* plus-simple-7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus-simple-7@2x.png"; sourceTree = "<group>"; };
+		5825649A1AA456A00030A3BA /* spanner-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spanner-7.png"; sourceTree = "<group>"; };
+		5825649B1AA456A00030A3BA /* spanner-7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spanner-7@2x.png"; sourceTree = "<group>"; };
+		582E85551B267C7F00108924 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		582E85571B267CB800108924 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		582E85591B267CC000108924 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		582E855F1B26809200108924 /* TinyUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinyUser.h; sourceTree = "<group>"; };
+		582E85601B26809200108924 /* TinyUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TinyUser.m; sourceTree = "<group>"; };
 		588824071AA448720047F426 /* Jobos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jobos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5888240B1AA448720047F426 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5888240C1AA448720047F426 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5888240E1AA448720047F426 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5888240F1AA448720047F426 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		588824111AA448720047F426 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		588824121AA448720047F426 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		588824151AA448720047F426 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		588824171AA448720047F426 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5888241A1AA448720047F426 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		588824201AA448730047F426 /* JobosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JobosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		588824251AA448730047F426 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		588824261AA448730047F426 /* JobosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JobosTests.m; sourceTree = "<group>"; };
+		588824301AA449500047F426 /* EditPaymentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditPaymentsViewController.m; sourceTree = "<group>"; };
+		588824311AA449500047F426 /* EditPaymentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditPaymentsViewController.h; sourceTree = "<group>"; };
+		588824321AA449500047F426 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		588824401AA449500047F426 /* STPAPIClient+ApplePay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STPAPIClient+ApplePay.m"; sourceTree = "<group>"; };
+		588824411AA449500047F426 /* Stripe+ApplePay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Stripe+ApplePay.m"; sourceTree = "<group>"; };
+		588824431AA449500047F426 /* STPCheckoutDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPCheckoutDelegate.h; sourceTree = "<group>"; };
+		588824441AA449500047F426 /* STPCheckoutInternalUIWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPCheckoutInternalUIWebViewController.h; sourceTree = "<group>"; };
+		588824451AA449500047F426 /* STPCheckoutInternalUIWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPCheckoutInternalUIWebViewController.m; sourceTree = "<group>"; };
+		588824461AA449500047F426 /* STPCheckoutOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPCheckoutOptions.m; sourceTree = "<group>"; };
+		588824471AA449500047F426 /* STPCheckoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPCheckoutViewController.m; sourceTree = "<group>"; };
+		588824481AA449500047F426 /* STPCheckoutWebViewAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPCheckoutWebViewAdapter.h; sourceTree = "<group>"; };
+		588824491AA449500047F426 /* STPColorUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPColorUtils.h; sourceTree = "<group>"; };
+		5888244A1AA449500047F426 /* STPColorUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPColorUtils.m; sourceTree = "<group>"; };
+		5888244B1AA449500047F426 /* STPIOSCheckoutWebViewAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPIOSCheckoutWebViewAdapter.h; sourceTree = "<group>"; };
+		5888244C1AA449500047F426 /* STPIOSCheckoutWebViewAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPIOSCheckoutWebViewAdapter.m; sourceTree = "<group>"; };
+		5888244D1AA449500047F426 /* STPOSXCheckoutWebViewAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPOSXCheckoutWebViewAdapter.h; sourceTree = "<group>"; };
+		5888244E1AA449500047F426 /* STPOSXCheckoutWebViewAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPOSXCheckoutWebViewAdapter.m; sourceTree = "<group>"; };
+		5888244F1AA449500047F426 /* STPStrictURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPStrictURLProtocol.h; sourceTree = "<group>"; };
+		588824501AA449500047F426 /* STPStrictURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPStrictURLProtocol.m; sourceTree = "<group>"; };
+		588824511AA449500047F426 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		588824541AA449500047F426 /* STPAPIClient+ApplePay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STPAPIClient+ApplePay.h"; sourceTree = "<group>"; };
+		588824551AA449500047F426 /* Stripe+ApplePay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Stripe+ApplePay.h"; sourceTree = "<group>"; };
+		588824571AA449500047F426 /* STPCheckoutOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPCheckoutOptions.h; sourceTree = "<group>"; };
+		588824581AA449500047F426 /* STPCheckoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPCheckoutViewController.h; sourceTree = "<group>"; };
+		588824591AA449500047F426 /* STPAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPAPIClient.h; sourceTree = "<group>"; };
+		5888245A1AA449500047F426 /* STPBankAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPBankAccount.h; sourceTree = "<group>"; };
+		5888245B1AA449500047F426 /* STPCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPCard.h; sourceTree = "<group>"; };
+		5888245C1AA449500047F426 /* STPToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPToken.h; sourceTree = "<group>"; };
+		5888245D1AA449500047F426 /* Stripe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stripe.h; sourceTree = "<group>"; };
+		5888245E1AA449500047F426 /* StripeError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StripeError.h; sourceTree = "<group>"; };
+		5888245F1AA449500047F426 /* STPAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPAPIClient.m; sourceTree = "<group>"; };
+		588824601AA449500047F426 /* STPAPIConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPAPIConnection.h; sourceTree = "<group>"; };
+		588824611AA449500047F426 /* STPAPIConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPAPIConnection.m; sourceTree = "<group>"; };
+		588824621AA449500047F426 /* STPBankAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPBankAccount.m; sourceTree = "<group>"; };
+		588824631AA449500047F426 /* STPCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPCard.m; sourceTree = "<group>"; };
+		588824641AA449500047F426 /* STPFormEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPFormEncoder.h; sourceTree = "<group>"; };
+		588824651AA449500047F426 /* STPFormEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPFormEncoder.m; sourceTree = "<group>"; };
+		588824661AA449500047F426 /* STPToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPToken.m; sourceTree = "<group>"; };
+		588824671AA449500047F426 /* StripeError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StripeError.m; sourceTree = "<group>"; };
+		5888246B1AA449500047F426 /* FriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsViewController.m; sourceTree = "<group>"; };
+		5888246C1AA449500047F426 /* EditFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditFriendsViewController.m; sourceTree = "<group>"; };
+		5888246D1AA449500047F426 /* FriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsViewController.h; sourceTree = "<group>"; };
+		5888246E1AA449500047F426 /* EditFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditFriendsViewController.h; sourceTree = "<group>"; };
+		5888246F1AA449500047F426 /* InboxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InboxViewController.m; sourceTree = "<group>"; };
+		588824721AA449500047F426 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		588824731AA449500047F426 /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
+		588824741AA449500047F426 /* InboxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InboxViewController.h; sourceTree = "<group>"; };
+		588824751AA449500047F426 /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
+		588824761AA449500047F426 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		588824771AA449500047F426 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		588824781AA449500047F426 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		588824791AA449500047F426 /* PaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentViewController.h; sourceTree = "<group>"; };
+		5888247A1AA449500047F426 /* PaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentViewController.m; sourceTree = "<group>"; };
+		588824A41AA449D70047F426 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		588824A51AA449D70047F426 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		588824A81AA449FD0047F426 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		588824A91AA449FD0047F426 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		588824AA1AA449FD0047F426 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		588824AB1AA449FD0047F426 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		588824AC1AA449FD0047F426 /* bundle1.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = bundle1.o; path = usr/lib/bundle1.o; sourceTree = SDKROOT; };
+		588824AD1AA449FD0047F426 /* CarrierBundleUtilities.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = CarrierBundleUtilities.dylib; path = usr/lib/CarrierBundleUtilities.dylib; sourceTree = SDKROOT; };
+		588824AE1AA449FD0047F426 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		588824B71AA44AF70047F426 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		588824B81AA44AF70047F426 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		588824B91AA44AF70047F426 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		588824BA1AA44AF70047F426 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		588824BB1AA44AF70047F426 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		588824BC1AA44AF70047F426 /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
+		588824BD1AA44AF70047F426 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		588824BE1AA44AF70047F426 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		588824BF1AA44AF70047F426 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		588824C01AA44AF70047F426 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		588825001AA451D10047F426 /* camera-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "camera-7.png"; path = "../../Desktop/JOBOS/camera-7.png"; sourceTree = "<group>"; };
+		588825011AA451D10047F426 /* camera-7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "camera-7@2x.png"; path = "../../Desktop/JOBOS/camera-7@2x.png"; sourceTree = "<group>"; };
+		588825021AA451D10047F426 /* circle-tick-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "circle-tick-7.png"; path = "../../Desktop/JOBOS/circle-tick-7.png"; sourceTree = "<group>"; };
+		588825031AA451D10047F426 /* circle-tick-7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "circle-tick-7@2x.png"; path = "../../Desktop/JOBOS/circle-tick-7@2x.png"; sourceTree = "<group>"; };
+		588825041AA451D10047F426 /* circle-user-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "circle-user-7.png"; path = "../../Desktop/JOBOS/circle-user-7.png"; sourceTree = "<group>"; };
+		588825051AA451D10047F426 /* circle-user-7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "circle-user-7@2x.png"; path = "../../Desktop/JOBOS/circle-user-7@2x.png"; sourceTree = "<group>"; };
+		588825061AA451D10047F426 /* connect-arrow-left-right-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "connect-arrow-left-right-7.png"; path = "../../Desktop/JOBOS/connect-arrow-left-right-7.png"; sourceTree = "<group>"; };
+		588825071AA451D10047F426 /* connect-arrow-left-right-7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "connect-arrow-left-right-7@2x.png"; path = "../../Desktop/JOBOS/connect-arrow-left-right-7@2x.png"; sourceTree = "<group>"; };
+		588825081AA451D10047F426 /* credit-card-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "credit-card-7.png"; path = "../../Desktop/JOBOS/credit-card-7.png"; sourceTree = "<group>"; };
+		588825091AA451D10047F426 /* credit-card-7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "credit-card-7@2x.png"; path = "../../Desktop/JOBOS/credit-card-7@2x.png"; sourceTree = "<group>"; };
+		5888250A1AA451D10047F426 /* earth-america-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "earth-america-7.png"; path = "../../Desktop/JOBOS/earth-america-7.png"; sourceTree = "<group>"; };
+		5888250B1AA451D10047F426 /* earth-america-7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "earth-america-7@2x.png"; path = "../../Desktop/JOBOS/earth-america-7@2x.png"; sourceTree = "<group>"; };
+		5888250C1AA451D10047F426 /* thumb-up-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thumb-up-7.png"; path = "../../Desktop/JOBOS/thumb-up-7.png"; sourceTree = "<group>"; };
+		5888250D1AA451D10047F426 /* thumb-up-7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thumb-up-7@2x.png"; path = "../../Desktop/JOBOS/thumb-up-7@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +203,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				582E855A1B267CC000108924 /* Twitter.framework in Frameworks */,
+				582E85581B267CB800108924 /* Accounts.framework in Frameworks */,
+				582E85561B267C7F00108924 /* Social.framework in Frameworks */,
+				588824C11AA44AF70047F426 /* CoreGraphics.framework in Frameworks */,
+				588824C21AA44AF70047F426 /* CoreLocation.framework in Frameworks */,
+				588824C31AA44AF70047F426 /* libsqlite3.dylib in Frameworks */,
+				588824C41AA44AF70047F426 /* libz.dylib in Frameworks */,
+				588824C51AA44AF70047F426 /* MobileCoreServices.framework in Frameworks */,
+				588824C61AA44AF70047F426 /* PassKit.framework in Frameworks */,
+				588824C71AA44AF70047F426 /* QuartzCore.framework in Frameworks */,
+				588824C81AA44AF70047F426 /* Security.framework in Frameworks */,
+				588824C91AA44AF70047F426 /* StoreKit.framework in Frameworks */,
+				588824CA1AA44AF70047F426 /* SystemConfiguration.framework in Frameworks */,
+				588824B61AA44A460047F426 /* CFNetwork.framework in Frameworks */,
+				588824AF1AA449FD0047F426 /* AudioToolbox.framework in Frameworks */,
+				588824A71AA449D70047F426 /* Parse.framework in Frameworks */,
+				588824A61AA449D70047F426 /* Bolts.framework in Frameworks */,
+				4C61373DEC1B8F3EF49062B2 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +234,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17780F282433D0EB47E47ED5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4009B77843D79085A66B3949 /* Pods.debug.xcconfig */,
+				48DF50002340782A860471E7 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		582E855B1B267FC800108924 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				582E855F1B26809200108924 /* TinyUser.h */,
+				582E85601B26809200108924 /* TinyUser.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		588823FE1AA448720047F426 = {
 			isa = PBXGroup;
 			children = (
+				588825241AA453940047F426 /* ViewControllers */,
+				588824FF1AA44CD60047F426 /* Tabimages */,
+				5888243E1AA449500047F426 /* Stripe */,
 				588824091AA448720047F426 /* Jobos */,
 				588824231AA448730047F426 /* JobosTests */,
 				588824081AA448720047F426 /* Products */,
+				17780F282433D0EB47E47ED5 /* Pods */,
+				60A1FEB6195580ADF2462492 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,10 +280,8 @@
 			children = (
 				5888240E1AA448720047F426 /* AppDelegate.h */,
 				5888240F1AA448720047F426 /* AppDelegate.m */,
-				588824111AA448720047F426 /* ViewController.h */,
-				588824121AA448720047F426 /* ViewController.m */,
-				588824141AA448720047F426 /* Main.storyboard */,
 				588824171AA448720047F426 /* Images.xcassets */,
+				588824321AA449500047F426 /* Main.storyboard */,
 				588824191AA448720047F426 /* LaunchScreen.xib */,
 				5888240A1AA448720047F426 /* Supporting Files */,
 			);
@@ -96,6 +291,25 @@
 		5888240A1AA448720047F426 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				588824B71AA44AF70047F426 /* CoreGraphics.framework */,
+				588824B81AA44AF70047F426 /* CoreLocation.framework */,
+				588824B91AA44AF70047F426 /* libsqlite3.dylib */,
+				588824BA1AA44AF70047F426 /* libz.dylib */,
+				588824BB1AA44AF70047F426 /* MobileCoreServices.framework */,
+				588824BC1AA44AF70047F426 /* PassKit.framework */,
+				588824BD1AA44AF70047F426 /* QuartzCore.framework */,
+				588824BE1AA44AF70047F426 /* Security.framework */,
+				588824BF1AA44AF70047F426 /* StoreKit.framework */,
+				588824C01AA44AF70047F426 /* SystemConfiguration.framework */,
+				588824A81AA449FD0047F426 /* AudioToolbox.framework */,
+				588824A91AA449FD0047F426 /* AudioUnit.framework */,
+				588824AA1AA449FD0047F426 /* AVFoundation.framework */,
+				588824AB1AA449FD0047F426 /* AVKit.framework */,
+				588824AC1AA449FD0047F426 /* bundle1.o */,
+				588824AD1AA449FD0047F426 /* CarrierBundleUtilities.dylib */,
+				588824AE1AA449FD0047F426 /* CFNetwork.framework */,
+				588824A41AA449D70047F426 /* Bolts.framework */,
+				588824A51AA449D70047F426 /* Parse.framework */,
 				5888240B1AA448720047F426 /* Info.plist */,
 				5888240C1AA448720047F426 /* main.m */,
 			);
@@ -119,6 +333,150 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		5888243E1AA449500047F426 /* Stripe */ = {
+			isa = PBXGroup;
+			children = (
+				5888243F1AA449500047F426 /* ApplePay */,
+				588824421AA449500047F426 /* Checkout */,
+				588824511AA449500047F426 /* Info.plist */,
+				588824521AA449500047F426 /* PublicHeaders */,
+				5888245F1AA449500047F426 /* STPAPIClient.m */,
+				588824601AA449500047F426 /* STPAPIConnection.h */,
+				588824611AA449500047F426 /* STPAPIConnection.m */,
+				588824621AA449500047F426 /* STPBankAccount.m */,
+				588824631AA449500047F426 /* STPCard.m */,
+				588824641AA449500047F426 /* STPFormEncoder.h */,
+				588824651AA449500047F426 /* STPFormEncoder.m */,
+				588824661AA449500047F426 /* STPToken.m */,
+				588824671AA449500047F426 /* StripeError.m */,
+			);
+			name = Stripe;
+			path = "stripe-ios/Stripe";
+			sourceTree = "<group>";
+		};
+		5888243F1AA449500047F426 /* ApplePay */ = {
+			isa = PBXGroup;
+			children = (
+				588824401AA449500047F426 /* STPAPIClient+ApplePay.m */,
+				588824411AA449500047F426 /* Stripe+ApplePay.m */,
+			);
+			path = ApplePay;
+			sourceTree = "<group>";
+		};
+		588824421AA449500047F426 /* Checkout */ = {
+			isa = PBXGroup;
+			children = (
+				588824431AA449500047F426 /* STPCheckoutDelegate.h */,
+				588824441AA449500047F426 /* STPCheckoutInternalUIWebViewController.h */,
+				588824451AA449500047F426 /* STPCheckoutInternalUIWebViewController.m */,
+				588824461AA449500047F426 /* STPCheckoutOptions.m */,
+				588824471AA449500047F426 /* STPCheckoutViewController.m */,
+				588824481AA449500047F426 /* STPCheckoutWebViewAdapter.h */,
+				588824491AA449500047F426 /* STPColorUtils.h */,
+				5888244A1AA449500047F426 /* STPColorUtils.m */,
+				5888244B1AA449500047F426 /* STPIOSCheckoutWebViewAdapter.h */,
+				5888244C1AA449500047F426 /* STPIOSCheckoutWebViewAdapter.m */,
+				5888244D1AA449500047F426 /* STPOSXCheckoutWebViewAdapter.h */,
+				5888244E1AA449500047F426 /* STPOSXCheckoutWebViewAdapter.m */,
+				5888244F1AA449500047F426 /* STPStrictURLProtocol.h */,
+				588824501AA449500047F426 /* STPStrictURLProtocol.m */,
+			);
+			path = Checkout;
+			sourceTree = "<group>";
+		};
+		588824521AA449500047F426 /* PublicHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				588824531AA449500047F426 /* ApplePay */,
+				588824561AA449500047F426 /* Checkout */,
+				588824591AA449500047F426 /* STPAPIClient.h */,
+				5888245A1AA449500047F426 /* STPBankAccount.h */,
+				5888245B1AA449500047F426 /* STPCard.h */,
+				5888245C1AA449500047F426 /* STPToken.h */,
+				5888245D1AA449500047F426 /* Stripe.h */,
+				5888245E1AA449500047F426 /* StripeError.h */,
+			);
+			path = PublicHeaders;
+			sourceTree = "<group>";
+		};
+		588824531AA449500047F426 /* ApplePay */ = {
+			isa = PBXGroup;
+			children = (
+				588824541AA449500047F426 /* STPAPIClient+ApplePay.h */,
+				588824551AA449500047F426 /* Stripe+ApplePay.h */,
+			);
+			path = ApplePay;
+			sourceTree = "<group>";
+		};
+		588824561AA449500047F426 /* Checkout */ = {
+			isa = PBXGroup;
+			children = (
+				588824571AA449500047F426 /* STPCheckoutOptions.h */,
+				588824581AA449500047F426 /* STPCheckoutViewController.h */,
+			);
+			path = Checkout;
+			sourceTree = "<group>";
+		};
+		588824FF1AA44CD60047F426 /* Tabimages */ = {
+			isa = PBXGroup;
+			children = (
+				582564981AA456A00030A3BA /* plus-simple-7.png */,
+				582564991AA456A00030A3BA /* plus-simple-7@2x.png */,
+				5825649A1AA456A00030A3BA /* spanner-7.png */,
+				5825649B1AA456A00030A3BA /* spanner-7@2x.png */,
+				588825001AA451D10047F426 /* camera-7.png */,
+				588825011AA451D10047F426 /* camera-7@2x.png */,
+				588825021AA451D10047F426 /* circle-tick-7.png */,
+				588825031AA451D10047F426 /* circle-tick-7@2x.png */,
+				588825041AA451D10047F426 /* circle-user-7.png */,
+				588825051AA451D10047F426 /* circle-user-7@2x.png */,
+				588825061AA451D10047F426 /* connect-arrow-left-right-7.png */,
+				588825071AA451D10047F426 /* connect-arrow-left-right-7@2x.png */,
+				588825081AA451D10047F426 /* credit-card-7.png */,
+				588825091AA451D10047F426 /* credit-card-7@2x.png */,
+				5888250A1AA451D10047F426 /* earth-america-7.png */,
+				5888250B1AA451D10047F426 /* earth-america-7@2x.png */,
+				5888250C1AA451D10047F426 /* thumb-up-7.png */,
+				5888250D1AA451D10047F426 /* thumb-up-7@2x.png */,
+			);
+			name = Tabimages;
+			sourceTree = "<group>";
+		};
+		588825241AA453940047F426 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				588824301AA449500047F426 /* EditPaymentsViewController.m */,
+				588824311AA449500047F426 /* EditPaymentsViewController.h */,
+				582E855B1B267FC800108924 /* Models */,
+				5888246D1AA449500047F426 /* FriendsViewController.h */,
+				5888246B1AA449500047F426 /* FriendsViewController.m */,
+				5888246C1AA449500047F426 /* EditFriendsViewController.m */,
+				5888246E1AA449500047F426 /* EditFriendsViewController.h */,
+				5888246F1AA449500047F426 /* InboxViewController.m */,
+				588824741AA449500047F426 /* InboxViewController.h */,
+				588824731AA449500047F426 /* LogInViewController.m */,
+				588824751AA449500047F426 /* LogInViewController.h */,
+				588824721AA449500047F426 /* SignUpViewController.m */,
+				588824761AA449500047F426 /* SignUpViewController.h */,
+				588824771AA449500047F426 /* ViewController.h */,
+				588824781AA449500047F426 /* ViewController.m */,
+				588824791AA449500047F426 /* PaymentViewController.h */,
+				5888247A1AA449500047F426 /* PaymentViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		60A1FEB6195580ADF2462492 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				582E85591B267CC000108924 /* Twitter.framework */,
+				582E85571B267CB800108924 /* Accounts.framework */,
+				582E85551B267C7F00108924 /* Social.framework */,
+				469F2D9750B1EA555F585479 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +484,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5888242A1AA448730047F426 /* Build configuration list for PBXNativeTarget "Jobos" */;
 			buildPhases = (
+				29494774127190AF2B6124A7 /* Check Pods Manifest.lock */,
 				588824031AA448720047F426 /* Sources */,
 				588824041AA448720047F426 /* Frameworks */,
 				588824051AA448720047F426 /* Resources */,
+				9861F62B9F8B72B7E1733986 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,6 +528,7 @@
 				TargetAttributes = {
 					588824061AA448720047F426 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = Q8864LR3X2;
 					};
 					5888241F1AA448730047F426 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -199,9 +560,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				588824161AA448720047F426 /* Main.storyboard in Resources */,
+				588825141AA451D10047F426 /* connect-arrow-left-right-7.png in Resources */,
+				5825649C1AA456A00030A3BA /* plus-simple-7.png in Resources */,
+				588825131AA451D10047F426 /* circle-user-7@2x.png in Resources */,
+				588825101AA451D10047F426 /* circle-tick-7.png in Resources */,
 				5888241B1AA448720047F426 /* LaunchScreen.xib in Resources */,
 				588824181AA448720047F426 /* Images.xcassets in Resources */,
+				5888251A1AA451D10047F426 /* thumb-up-7.png in Resources */,
+				588825111AA451D10047F426 /* circle-tick-7@2x.png in Resources */,
+				5825649D1AA456A00030A3BA /* plus-simple-7@2x.png in Resources */,
+				5888248D1AA449500047F426 /* Info.plist in Resources */,
+				5825649F1AA456A00030A3BA /* spanner-7@2x.png in Resources */,
+				588825171AA451D10047F426 /* credit-card-7@2x.png in Resources */,
+				588825191AA451D10047F426 /* earth-america-7@2x.png in Resources */,
+				588825161AA451D10047F426 /* credit-card-7.png in Resources */,
+				588825121AA451D10047F426 /* circle-user-7.png in Resources */,
+				588825151AA451D10047F426 /* connect-arrow-left-right-7@2x.png in Resources */,
+				5888250F1AA451D10047F426 /* camera-7@2x.png in Resources */,
+				5888251B1AA451D10047F426 /* thumb-up-7@2x.png in Resources */,
+				588824831AA449500047F426 /* Main.storyboard in Resources */,
+				588825181AA451D10047F426 /* earth-america-7.png in Resources */,
+				5888250E1AA451D10047F426 /* camera-7.png in Resources */,
+				5825649E1AA456A00030A3BA /* spanner-7.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,14 +594,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		29494774127190AF2B6124A7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9861F62B9F8B72B7E1733986 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		588824031AA448720047F426 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				588824131AA448720047F426 /* ViewController.m in Sources */,
+				588824871AA449500047F426 /* STPCheckoutOptions.m in Sources */,
+				588824851AA449500047F426 /* Stripe+ApplePay.m in Sources */,
+				588824911AA449500047F426 /* STPCard.m in Sources */,
+				5888248B1AA449500047F426 /* STPOSXCheckoutWebViewAdapter.m in Sources */,
+				588824931AA449500047F426 /* STPToken.m in Sources */,
+				5888249A1AA449500047F426 /* LogInViewController.m in Sources */,
+				588824821AA449500047F426 /* EditPaymentsViewController.m in Sources */,
+				582E85611B26809200108924 /* TinyUser.m in Sources */,
+				588824921AA449500047F426 /* STPFormEncoder.m in Sources */,
+				5888249B1AA449500047F426 /* ViewController.m in Sources */,
+				588824881AA449500047F426 /* STPCheckoutViewController.m in Sources */,
+				588824951AA449500047F426 /* FriendsViewController.m in Sources */,
+				5888248F1AA449500047F426 /* STPAPIConnection.m in Sources */,
+				588824991AA449500047F426 /* SignUpViewController.m in Sources */,
+				588824891AA449500047F426 /* STPColorUtils.m in Sources */,
+				588824961AA449500047F426 /* EditFriendsViewController.m in Sources */,
 				588824101AA448720047F426 /* AppDelegate.m in Sources */,
+				588824841AA449500047F426 /* STPAPIClient+ApplePay.m in Sources */,
+				588824971AA449500047F426 /* InboxViewController.m in Sources */,
+				5888249C1AA449500047F426 /* PaymentViewController.m in Sources */,
+				5888248E1AA449500047F426 /* STPAPIClient.m in Sources */,
+				588824901AA449500047F426 /* STPBankAccount.m in Sources */,
+				5888248A1AA449500047F426 /* STPIOSCheckoutWebViewAdapter.m in Sources */,
+				588824861AA449500047F426 /* STPCheckoutInternalUIWebViewController.m in Sources */,
+				588824941AA449500047F426 /* StripeError.m in Sources */,
 				5888240D1AA448720047F426 /* main.m in Sources */,
+				5888248C1AA449500047F426 /* STPStrictURLProtocol.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +681,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		588824141AA448720047F426 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				588824151AA448720047F426 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		588824191AA448720047F426 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -341,21 +770,41 @@
 		};
 		5888242B1AA448730047F426 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4009B77843D79085A66B3949 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Jobos",
+				);
 				INFOPLIST_FILE = Jobos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		5888242C1AA448730047F426 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48DF50002340782A860471E7 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Jobos",
+				);
 				INFOPLIST_FILE = Jobos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -412,6 +861,7 @@
 				5888242C1AA448730047F426 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5888242D1AA448730047F426 /* Build configuration list for PBXNativeTarget "JobosTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +870,7 @@
 				5888242F1AA448730047F426 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
