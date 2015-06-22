@@ -31,6 +31,9 @@
 
 - (IBAction)Logout:(id)sender {
     [PFUser logOut];
+    [[NSNotificationCenter defaultCenter]
+postNotificationName:@"TestNotification"
+object:self];
     [self performSegueWithIdentifier:@"showlogin" sender:self];
     
 }

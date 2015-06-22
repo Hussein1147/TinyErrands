@@ -11,6 +11,7 @@
 #define TINY_CREATE_POST_URL @"https://tinyerrands-jobos.rhcloud.com/createUser"
 #define TINY_ALL_USER_POST_URL @"https://tinyerrands-jobos.rhcloud.com/get_All_Users"
 #define TINY_FOLOW_POST_URL @"https://tinyerrands-jobos.rhcloud.com/follow"
+#define TINY_GET_FOLLOWERS_POST_URL @"https://tinyerrands-jobos.rhcloud.com/get_followers"
 
 @interface TinyUser()
 
@@ -67,7 +68,6 @@
           success:^(AFHTTPRequestOperation *operation, id responseObject)
      {
          
-         NSLog(@"JSON: %@", responseObject);
          if (completionHandler) {
              completionHandler(responseObject,nil);
 
@@ -102,13 +102,13 @@
           failure:
      ^(AFHTTPRequestOperation *operation, NSError *error) {
          if (completionHandler) {
-             completionHandler([operation responseString],nil);
+             completionHandler(error,nil);
          }
      }];
     
 }
 
--(void)follow:(NSString *)currentUserEmail friend:(NSString *)email completion:(void (^) (id, NSError *error))completionHandler{
+-(void)follow:(NSString *)email completion:(void (^) (id, NSError *error))completionHandler{
     
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     manager.requestSerializer = [AFJSONRequestSerializer serializer];
@@ -128,6 +128,32 @@
      ^(AFHTTPRequestOperation *operation, NSError *error) {
          if (completionHandler) {
              completionHandler([operation responseString],nil);
+         }
+     }];
+    
+
+
+}
+
+-(void)getFollowers:(void (^)(id, NSError *))completionHandler{
+
+    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+    manager.requestSerializer = [AFJSONRequestSerializer serializer];
+    manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/json", @"text/javascript",@"text/html", nil];;
+    NSMutableDictionary* postRequestDictionary = [[NSMutableDictionary alloc] init];
+    postRequestDictionary[@"currentUserEmail"] = self.email;
+    [manager POST:TINY_GET_FOLLOWERS_POST_URL parameters:postRequestDictionary
+          success:^(AFHTTPRequestOperation *operation, id responseObject)
+     {
+         if (completionHandler) {
+             completionHandler(responseObject,nil);
+         }
+         
+     }
+          failure:
+     ^(AFHTTPRequestOperation *operation, NSError *error) {
+         if (completionHandler) {
+             completionHandler(error,nil);
          }
      }];
     

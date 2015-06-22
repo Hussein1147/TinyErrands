@@ -7,52 +7,52 @@
 //
 
 #import "FriendsViewController.h"
-
+#import "TinyUser.h"
+@interface FriendsViewController()
+@property (nonatomic,strong) TinyUser *tinyCurrentUser;
+@property (nonatomic,strong) NSMutableArray *tinyFriends;
+@end
 @implementation FriendsViewController
 
--(void) viewWillAppear: (BOOL) animated
+-(void)viewDidLoad{
+    [super viewDidLoad];
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(clearFriendsData:)
+                                                 name:@"TestNotification"
+                                               object:nil];
+    
+    PFUser *currentUser = [PFUser currentUser];
+    self.tinyCurrentUser = [[TinyUser alloc]init];
+    self.tinyFriends = [[NSMutableArray alloc]init];
+    self.tinyCurrentUser.email = currentUser.email;
+
+}
+-(void)viewWillAppear: (BOOL) animated
 {
 
     [super viewWillAppear:animated];
-    self.friendsRelation = [[PFUser currentUser] relationForKey:@"friendsRelation"];
-    PFQuery *query = [self.friendsRelation query];
-    PFQuery *newQuery = [PFUser query];
-    [newQuery whereKey:@"username" equalTo:@"karki"];
-    
-    [newQuery findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
-        if (!error) {
-        
-                NSLog(@"id: %@", objects);
+   
+    [self.tinyCurrentUser getFollowers:^(id responseObject, NSError *error) {
+        if (error) {
+            UIAlertView *arlertView = [[UIAlertView alloc]initWithTitle:@"Yaiks!" message:[error.userInfo objectForKey:@"error"] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+            [arlertView show];
             
         }else{
-            
-            NSLog(@"some error have occured");
+            self.tinyFriends = [responseObject valueForKey:@"data"];
+            [self.tableView reloadData];
+                
         }
         
-    
     }];
-    
-    
 
-    [query orderByAscending:@"username"];
-    
-    //Dont forget to change this to intergrate NSNotificationCenter for efficiency
-    
-    [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
-        if(error){
-            NSLog(@"Error %@ %@", error, [error userInfo]);
-        }
-        else {
-            
-            self.friends = objects;
-            [self.tableView reloadData];
-        }
-    }];
-    
+}
+-(void)clearFriendsData:(NSNotification *)notification{
+    self.tinyFriends=nil;
+    [self.tableView reloadData];
 }
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
 
-    return [self.friends count];
+    return [self.tinyFriends count];
 }
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
     return 1;
@@ -64,8 +64,8 @@
 
     static NSString *cellIdentifier = @"Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
-    PFUser *user = [self.friends objectAtIndex:indexPath.row];
-    cell.textLabel.text = user.username;
+    NSDictionary *user = [self.tinyFriends objectAtIndex:indexPath.row];
+    cell.textLabel.text = [user valueForKey:@"name"];
     return cell;
 }
 @end

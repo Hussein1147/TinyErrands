@@ -45,9 +45,12 @@
                 UIAlertView *arlertView = [[UIAlertView alloc]initWithTitle:@"Yaiks!" message:[error.userInfo objectForKey:@"error"] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
                 [arlertView show];
             }else{
-                [self.navigationController popToRootViewControllerAnimated:YES];
                 [newUser signUpInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
+                    [self.navigationController popToRootViewControllerAnimated:YES];
+                    
+
                 }];
+                
                 
             }
             

@@ -32,8 +32,6 @@
         if (!responseObject) {
             NSLog(@"some error occured");
         }else{
-    
-            NSLog(@"%@", [[responseObject objectForKey:@"data"] firstObject]);
             
             self.allUsers = [responseObject valueForKey:@"data"];
             [self.tableView reloadData];
@@ -43,9 +41,7 @@
         }
     }];
 }
-
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    
     return [self.allUsers count];
 }
 
@@ -67,23 +63,13 @@
 
     cell.accessoryType = UITableViewCellAccessoryCheckmark;
     NSDictionary *user = [self.allUsers objectAtIndex:indexPath.row];
-    [self.currentTinyUser follow:self.currentUser.email friend:[user valueForKey:@"email"] completion:^(id reponseObject, NSError *error) {
+    [self.currentTinyUser follow:[user valueForKey:@"email"] completion:^(id reponseObject, NSError *error) {
         if (!reponseObject) {
             UIAlertView *arlertView = [[UIAlertView alloc]initWithTitle:@"Yaiks!" message:[error.userInfo objectForKey:@"error"] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
             [arlertView show];
-        }else{
-        
-            NSLog(@"%@", reponseObject);
         }
     }] ;
-    //    PFUser *user = [self.allUsers objectAtIndex:indexPath.row];
-//    PFRelation *friendsRelation = [self.currentUser relationForKey:@"friendsRelation"];
-//    [friendsRelation addObject:user];
-//    [self.currentUser saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
-//        if(error){
-//            NSLog(@"Sorry, some problem have occured: %@ %@", error, [error userInfo]);
-//        }
-//    }];
+  
 
 }
 @end

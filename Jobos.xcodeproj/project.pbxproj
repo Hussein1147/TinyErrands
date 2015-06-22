@@ -16,6 +16,18 @@
 		582E85581B267CB800108924 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582E85571B267CB800108924 /* Accounts.framework */; };
 		582E855A1B267CC000108924 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582E85591B267CC000108924 /* Twitter.framework */; };
 		582E85611B26809200108924 /* TinyUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 582E85601B26809200108924 /* TinyUser.m */; };
+		5881AFA31B38C1C900606C25 /* circle-user-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 5881AFA11B38C1C900606C25 /* circle-user-7.png */; };
+		5881AFA41B38C1C900606C25 /* circle-user-7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5881AFA21B38C1C900606C25 /* circle-user-7@2x.png */; };
+		5881AFAF1B38CA7B00606C25 /* tiny-dollar.png in Resources */ = {isa = PBXBuildFile; fileRef = 5881AFA51B38CA7B00606C25 /* tiny-dollar.png */; };
+		5881AFB01B38CA7B00606C25 /* tiny-dollar@2xpng.png in Resources */ = {isa = PBXBuildFile; fileRef = 5881AFA61B38CA7B00606C25 /* tiny-dollar@2xpng.png */; };
+		5881AFB11B38CA7B00606C25 /* tiny-earth.png in Resources */ = {isa = PBXBuildFile; fileRef = 5881AFA71B38CA7B00606C25 /* tiny-earth.png */; };
+		5881AFB21B38CA7B00606C25 /* tiny-earth@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5881AFA81B38CA7B00606C25 /* tiny-earth@2x.png */; };
+		5881AFB31B38CA7B00606C25 /* tiny-friends.png in Resources */ = {isa = PBXBuildFile; fileRef = 5881AFA91B38CA7B00606C25 /* tiny-friends.png */; };
+		5881AFB41B38CA7B00606C25 /* tiny-friends@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5881AFAA1B38CA7B00606C25 /* tiny-friends@2x.png */; };
+		5881AFB51B38CA7B00606C25 /* tiny-settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 5881AFAB1B38CA7B00606C25 /* tiny-settings.png */; };
+		5881AFB61B38CA7B00606C25 /* tiny-settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5881AFAC1B38CA7B00606C25 /* tiny-settings@2x.png */; };
+		5881AFB71B38CA7B00606C25 /* tiny-user.png in Resources */ = {isa = PBXBuildFile; fileRef = 5881AFAD1B38CA7B00606C25 /* tiny-user.png */; };
+		5881AFB81B38CA7B00606C25 /* tiny-user@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5881AFAE1B38CA7B00606C25 /* tiny-user@2x.png */; };
 		5888240D1AA448720047F426 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5888240C1AA448720047F426 /* main.m */; };
 		588824101AA448720047F426 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5888240F1AA448720047F426 /* AppDelegate.m */; };
 		588824181AA448720047F426 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 588824171AA448720047F426 /* Images.xcassets */; };
@@ -100,6 +112,18 @@
 		582E85591B267CC000108924 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		582E855F1B26809200108924 /* TinyUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinyUser.h; sourceTree = "<group>"; };
 		582E85601B26809200108924 /* TinyUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TinyUser.m; sourceTree = "<group>"; };
+		5881AFA11B38C1C900606C25 /* circle-user-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "circle-user-7.png"; path = "../../Downloads/iconbeast-lite-200/iconbeast lite 200 - png/circle-user-7.png"; sourceTree = "<group>"; };
+		5881AFA21B38C1C900606C25 /* circle-user-7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "circle-user-7@2x.png"; path = "../../Downloads/iconbeast-lite-200/iconbeast lite 200 - png/circle-user-7@2x.png"; sourceTree = "<group>"; };
+		5881AFA51B38CA7B00606C25 /* tiny-dollar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiny-dollar.png"; path = "../../Downloads/free_retina_display_friendly_icons/png/tiny-dollar.png"; sourceTree = "<group>"; };
+		5881AFA61B38CA7B00606C25 /* tiny-dollar@2xpng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiny-dollar@2xpng.png"; path = "../../Downloads/free_retina_display_friendly_icons/png/tiny-dollar@2xpng.png"; sourceTree = "<group>"; };
+		5881AFA71B38CA7B00606C25 /* tiny-earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiny-earth.png"; path = "../../Downloads/free_retina_display_friendly_icons/png/tiny-earth.png"; sourceTree = "<group>"; };
+		5881AFA81B38CA7B00606C25 /* tiny-earth@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiny-earth@2x.png"; path = "../../Downloads/free_retina_display_friendly_icons/png/tiny-earth@2x.png"; sourceTree = "<group>"; };
+		5881AFA91B38CA7B00606C25 /* tiny-friends.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiny-friends.png"; path = "../../Downloads/free_retina_display_friendly_icons/png/tiny-friends.png"; sourceTree = "<group>"; };
+		5881AFAA1B38CA7B00606C25 /* tiny-friends@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiny-friends@2x.png"; path = "../../Downloads/free_retina_display_friendly_icons/png/tiny-friends@2x.png"; sourceTree = "<group>"; };
+		5881AFAB1B38CA7B00606C25 /* tiny-settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiny-settings.png"; path = "../../Downloads/free_retina_display_friendly_icons/png/tiny-settings.png"; sourceTree = "<group>"; };
+		5881AFAC1B38CA7B00606C25 /* tiny-settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiny-settings@2x.png"; path = "../../Downloads/free_retina_display_friendly_icons/png/tiny-settings@2x.png"; sourceTree = "<group>"; };
+		5881AFAD1B38CA7B00606C25 /* tiny-user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiny-user.png"; path = "../../Downloads/free_retina_display_friendly_icons/png/tiny-user.png"; sourceTree = "<group>"; };
+		5881AFAE1B38CA7B00606C25 /* tiny-user@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiny-user@2x.png"; path = "../../Downloads/free_retina_display_friendly_icons/png/tiny-user@2x.png"; sourceTree = "<group>"; };
 		588824071AA448720047F426 /* Jobos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jobos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5888240B1AA448720047F426 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5888240C1AA448720047F426 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -420,11 +444,23 @@
 		588824FF1AA44CD60047F426 /* Tabimages */ = {
 			isa = PBXGroup;
 			children = (
+				5881AFA51B38CA7B00606C25 /* tiny-dollar.png */,
+				5881AFA61B38CA7B00606C25 /* tiny-dollar@2xpng.png */,
+				5881AFA71B38CA7B00606C25 /* tiny-earth.png */,
+				5881AFA81B38CA7B00606C25 /* tiny-earth@2x.png */,
+				5881AFA91B38CA7B00606C25 /* tiny-friends.png */,
+				5881AFAA1B38CA7B00606C25 /* tiny-friends@2x.png */,
+				5881AFAB1B38CA7B00606C25 /* tiny-settings.png */,
+				5881AFAC1B38CA7B00606C25 /* tiny-settings@2x.png */,
+				5881AFAD1B38CA7B00606C25 /* tiny-user.png */,
+				5881AFAE1B38CA7B00606C25 /* tiny-user@2x.png */,
 				582564981AA456A00030A3BA /* plus-simple-7.png */,
 				582564991AA456A00030A3BA /* plus-simple-7@2x.png */,
 				5825649A1AA456A00030A3BA /* spanner-7.png */,
 				5825649B1AA456A00030A3BA /* spanner-7@2x.png */,
 				588825001AA451D10047F426 /* camera-7.png */,
+				5881AFA11B38C1C900606C25 /* circle-user-7.png */,
+				5881AFA21B38C1C900606C25 /* circle-user-7@2x.png */,
 				588825011AA451D10047F426 /* camera-7@2x.png */,
 				588825021AA451D10047F426 /* circle-tick-7.png */,
 				588825031AA451D10047F426 /* circle-tick-7@2x.png */,
@@ -560,28 +596,40 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5881AFA31B38C1C900606C25 /* circle-user-7.png in Resources */,
 				588825141AA451D10047F426 /* connect-arrow-left-right-7.png in Resources */,
 				5825649C1AA456A00030A3BA /* plus-simple-7.png in Resources */,
+				5881AFB21B38CA7B00606C25 /* tiny-earth@2x.png in Resources */,
 				588825131AA451D10047F426 /* circle-user-7@2x.png in Resources */,
 				588825101AA451D10047F426 /* circle-tick-7.png in Resources */,
+				5881AFB41B38CA7B00606C25 /* tiny-friends@2x.png in Resources */,
 				5888241B1AA448720047F426 /* LaunchScreen.xib in Resources */,
 				588824181AA448720047F426 /* Images.xcassets in Resources */,
 				5888251A1AA451D10047F426 /* thumb-up-7.png in Resources */,
 				588825111AA451D10047F426 /* circle-tick-7@2x.png in Resources */,
 				5825649D1AA456A00030A3BA /* plus-simple-7@2x.png in Resources */,
 				5888248D1AA449500047F426 /* Info.plist in Resources */,
+				5881AFA41B38C1C900606C25 /* circle-user-7@2x.png in Resources */,
+				5881AFB11B38CA7B00606C25 /* tiny-earth.png in Resources */,
+				5881AFB01B38CA7B00606C25 /* tiny-dollar@2xpng.png in Resources */,
 				5825649F1AA456A00030A3BA /* spanner-7@2x.png in Resources */,
+				5881AFB31B38CA7B00606C25 /* tiny-friends.png in Resources */,
 				588825171AA451D10047F426 /* credit-card-7@2x.png in Resources */,
+				5881AFB61B38CA7B00606C25 /* tiny-settings@2x.png in Resources */,
 				588825191AA451D10047F426 /* earth-america-7@2x.png in Resources */,
 				588825161AA451D10047F426 /* credit-card-7.png in Resources */,
 				588825121AA451D10047F426 /* circle-user-7.png in Resources */,
 				588825151AA451D10047F426 /* connect-arrow-left-right-7@2x.png in Resources */,
+				5881AFAF1B38CA7B00606C25 /* tiny-dollar.png in Resources */,
 				5888250F1AA451D10047F426 /* camera-7@2x.png in Resources */,
 				5888251B1AA451D10047F426 /* thumb-up-7@2x.png in Resources */,
 				588824831AA449500047F426 /* Main.storyboard in Resources */,
+				5881AFB71B38CA7B00606C25 /* tiny-user.png in Resources */,
+				5881AFB81B38CA7B00606C25 /* tiny-user@2x.png in Resources */,
 				588825181AA451D10047F426 /* earth-america-7.png in Resources */,
 				5888250E1AA451D10047F426 /* camera-7.png in Resources */,
 				5825649E1AA456A00030A3BA /* spanner-7.png in Resources */,
+				5881AFB51B38CA7B00606C25 /* tiny-settings.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="fbk-Oq-hYX">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="fbk-Oq-hYX">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
         <!--Tab Bar Controller-->
@@ -303,7 +303,7 @@
         <scene sceneID="uzI-O4-pU6">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="eS1-QF-FNZ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Profile" image="camera-7.png" id="IKm-3H-ym5"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="tiny-user.png" id="IKm-3H-ym5"/>
                     <toolbarItems/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="7yg-MZ-X9O">
@@ -323,7 +323,7 @@
         <scene sceneID="ZJk-Rc-HoJ">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dyh-WX-e09" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Connections" image="connect-arrow-left-right-7.png" id="GfO-xS-ltj"/>
+                    <tabBarItem key="tabBarItem" title="Connections" image="tiny-friends.png" id="GfO-xS-ltj"/>
                     <toolbarItems/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="qvZ-Mp-zdy">
@@ -343,7 +343,7 @@
         <scene sceneID="Lwq-fT-Ity">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7lt-f8-ASc" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="job feed" image="earth-america-7.png" id="P2E-Ey-tCp"/>
+                    <tabBarItem key="tabBarItem" title="job feed" image="tiny-earth.png" id="P2E-Ey-tCp"/>
                     <toolbarItems/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="cAx-zN-Izu">
@@ -379,7 +379,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="My Payments" id="K49-oX-q8I">
-                        <barButtonItem key="rightBarButtonItem" image="spanner-7.png" id="eCe-hH-Q9K">
+                        <barButtonItem key="rightBarButtonItem" image="tiny-settings.png" id="eCe-hH-Q9K">
                             <connections>
                                 <segue destination="MJ6-c4-u3w" kind="show" id="C9V-WM-Cvs"/>
                             </connections>
@@ -480,7 +480,7 @@
         <scene sceneID="Lfw-Y6-bBe">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="SrD-yE-ohZ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Payments" image="credit-card-7.png" id="fCa-Bv-fXL"/>
+                    <tabBarItem key="tabBarItem" title="Payments" image="tiny-dollar.png" id="fCa-Bv-fXL"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="bJg-kc-BjL">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -497,11 +497,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="camera-7.png" width="30" height="30"/>
-        <image name="connect-arrow-left-right-7.png" width="29" height="30"/>
-        <image name="credit-card-7.png" width="30" height="30"/>
-        <image name="earth-america-7.png" width="30" height="30"/>
         <image name="plus-simple-7.png" width="15" height="15"/>
-        <image name="spanner-7.png" width="30" height="30"/>
+        <image name="tiny-dollar.png" width="30" height="30"/>
+        <image name="tiny-earth.png" width="30" height="30"/>
+        <image name="tiny-friends.png" width="30" height="30"/>
+        <image name="tiny-settings.png" width="40" height="40"/>
+        <image name="tiny-user.png" width="30" height="30"/>
     </resources>
 </document>
