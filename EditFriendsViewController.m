@@ -24,6 +24,8 @@
     [super viewDidLoad];
     
     self.navigationItem.title =@"Edit Friends";
+    self.tableView.tableFooterView = [[UIView alloc] init] ;
+
     
     self.currentUser = [PFUser currentUser];
     self.currentTinyUser = [[TinyUser alloc]init];
@@ -35,8 +37,6 @@
             
             self.allUsers = [responseObject valueForKey:@"data"];
             [self.tableView reloadData];
-            NSLog(@"%lu",(unsigned long)[self.allUsers count]);
-            NSLog(@"%@",[[self.allUsers firstObject] valueForKey:@"name"]);
         
         }
     }];

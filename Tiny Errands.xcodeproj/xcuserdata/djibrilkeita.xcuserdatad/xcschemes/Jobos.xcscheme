@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "588824061AA448720047F426"
-               BuildableName = "Jobos.app"
-               BlueprintName = "Jobos"
-               ReferencedContainer = "container:Jobos.xcodeproj">
+               BuildableName = "Tiny Errands.app"
+               BlueprintName = "Tiny Errands"
+               ReferencedContainer = "container:Tiny Errands.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5888241F1AA448730047F426"
-               BuildableName = "JobosTests.xctest"
-               BlueprintName = "JobosTests"
-               ReferencedContainer = "container:Jobos.xcodeproj">
+               BuildableName = "Tiny ErrandsTests.xctest"
+               BlueprintName = "Tiny ErrandsTests"
+               ReferencedContainer = "container:Tiny Errands.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5888241F1AA448730047F426"
-               BuildableName = "JobosTests.xctest"
-               BlueprintName = "JobosTests"
-               ReferencedContainer = "container:Jobos.xcodeproj">
+               BuildableName = "Tiny ErrandsTests.xctest"
+               BlueprintName = "Tiny ErrandsTests"
+               ReferencedContainer = "container:Tiny Errands.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "588824061AA448720047F426"
-            BuildableName = "Jobos.app"
-            BlueprintName = "Jobos"
-            ReferencedContainer = "container:Jobos.xcodeproj">
+            BuildableName = "Tiny Errands.app"
+            BlueprintName = "Tiny Errands"
+            ReferencedContainer = "container:Tiny Errands.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -72,13 +72,14 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "588824061AA448720047F426"
-            BuildableName = "Jobos.app"
-            BlueprintName = "Jobos"
-            ReferencedContainer = "container:Jobos.xcodeproj">
+            BuildableName = "Tiny Errands.app"
+            BlueprintName = "Tiny Errands"
+            ReferencedContainer = "container:Tiny Errands.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -90,13 +91,14 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "588824061AA448720047F426"
-            BuildableName = "Jobos.app"
-            BlueprintName = "Jobos"
-            ReferencedContainer = "container:Jobos.xcodeproj">
+            BuildableName = "Tiny Errands.app"
+            BlueprintName = "Tiny Errands"
+            ReferencedContainer = "container:Tiny Errands.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

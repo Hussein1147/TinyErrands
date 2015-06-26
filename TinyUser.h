@@ -22,11 +22,10 @@
 @property (nonatomic,strong) NSString *password;
 
 
--(NSMutableArray*)loadFriends:(NSString *)email;
--(NSMutableArray *)loadFollowedPosts:(NSString *)email;
 -(void)follow:(NSString *)email completion:(void (^) (id responseObject, NSError *error))completionHandler;
 -(void)getFollowers:(void (^) (id responseObject, NSError *))completionHandler;
--(void)addPost:(NSString *)currentUserEmail post:(NSString *)postBody;
+-(void)addPost:(NSString *)content completion:(void(^) (id responseObject,NSError *error))completionHandler;
+-(void)getposts:(void (^) (id responseObject, NSError *error))completionHandler;
 -(NSDictionary *)likePost:(NSString *)currentUserEmail postId:(int)iD;
 -(void)signUp:(void (^) (id responseObject, NSError *error))completionHandler;
 -(void)getAllUsers:(void (^)(id responseObject, NSError *error))completionHandler;

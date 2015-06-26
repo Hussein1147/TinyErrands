@@ -16,7 +16,8 @@
 -(void)viewDidLoad{
 
     [super viewDidLoad];
-   
+    
+    self.tableView.tableFooterView = [[UIView alloc] init] ;
 
     PFUser *currentUser = [PFUser currentUser];
     if (currentUser){

@@ -57,7 +57,6 @@
 		588824971AA449500047F426 /* InboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5888246F1AA449500047F426 /* InboxViewController.m */; };
 		588824991AA449500047F426 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 588824721AA449500047F426 /* SignUpViewController.m */; };
 		5888249A1AA449500047F426 /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 588824731AA449500047F426 /* LogInViewController.m */; };
-		5888249B1AA449500047F426 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 588824781AA449500047F426 /* ViewController.m */; };
 		5888249C1AA449500047F426 /* PaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5888247A1AA449500047F426 /* PaymentViewController.m */; };
 		588824A61AA449D70047F426 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 588824A41AA449D70047F426 /* Bolts.framework */; };
 		588824A71AA449D70047F426 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 588824A51AA449D70047F426 /* Parse.framework */; };
@@ -87,6 +86,13 @@
 		588825191AA451D10047F426 /* earth-america-7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5888250B1AA451D10047F426 /* earth-america-7@2x.png */; };
 		5888251A1AA451D10047F426 /* thumb-up-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 5888250C1AA451D10047F426 /* thumb-up-7.png */; };
 		5888251B1AA451D10047F426 /* thumb-up-7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5888250D1AA451D10047F426 /* thumb-up-7@2x.png */; };
+		58B9B7E21B38D8D00013F650 /* ErrandsFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B9B7E11B38D8D00013F650 /* ErrandsFeedViewController.m */; };
+		58B9B7E51B3A4D960013F650 /* AddPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B9B7E41B3A4D960013F650 /* AddPostViewController.m */; };
+		58B9B7F11B3CC6C00013F650 /* FBGTimelineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B9B7F01B3CC6C00013F650 /* FBGTimelineCell.m */; };
+		58B9B7FC1B3D02AB0013F650 /* tiny-simle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B9B7FA1B3D02AB0013F650 /* tiny-simle@2x.png */; };
+		58B9B7FD1B3D02AB0013F650 /* tiny-smile.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B9B7FB1B3D02AB0013F650 /* tiny-smile.png */; };
+		58B9B8001B3D148D0013F650 /* tiny-edit.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B9B7FE1B3D148D0013F650 /* tiny-edit.png */; };
+		58B9B8011B3D148D0013F650 /* tiny-edit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B9B7FF1B3D148D0013F650 /* tiny-edit@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,14 +130,14 @@
 		5881AFAC1B38CA7B00606C25 /* tiny-settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiny-settings@2x.png"; path = "../../Downloads/free_retina_display_friendly_icons/png/tiny-settings@2x.png"; sourceTree = "<group>"; };
 		5881AFAD1B38CA7B00606C25 /* tiny-user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiny-user.png"; path = "../../Downloads/free_retina_display_friendly_icons/png/tiny-user.png"; sourceTree = "<group>"; };
 		5881AFAE1B38CA7B00606C25 /* tiny-user@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiny-user@2x.png"; path = "../../Downloads/free_retina_display_friendly_icons/png/tiny-user@2x.png"; sourceTree = "<group>"; };
-		588824071AA448720047F426 /* Jobos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jobos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		588824071AA448720047F426 /* Tiny Errands.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tiny Errands.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5888240B1AA448720047F426 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5888240C1AA448720047F426 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5888240E1AA448720047F426 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5888240F1AA448720047F426 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		588824171AA448720047F426 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5888241A1AA448720047F426 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		588824201AA448730047F426 /* JobosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JobosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		588824201AA448730047F426 /* Tiny ErrandsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tiny ErrandsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		588824251AA448730047F426 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		588824261AA448730047F426 /* JobosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JobosTests.m; sourceTree = "<group>"; };
 		588824301AA449500047F426 /* EditPaymentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditPaymentsViewController.m; sourceTree = "<group>"; };
@@ -183,8 +189,6 @@
 		588824741AA449500047F426 /* InboxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InboxViewController.h; sourceTree = "<group>"; };
 		588824751AA449500047F426 /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
 		588824761AA449500047F426 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
-		588824771AA449500047F426 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		588824781AA449500047F426 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		588824791AA449500047F426 /* PaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentViewController.h; sourceTree = "<group>"; };
 		5888247A1AA449500047F426 /* PaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentViewController.m; sourceTree = "<group>"; };
 		588824A41AA449D70047F426 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
@@ -220,6 +224,16 @@
 		5888250B1AA451D10047F426 /* earth-america-7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "earth-america-7@2x.png"; path = "../../Desktop/JOBOS/earth-america-7@2x.png"; sourceTree = "<group>"; };
 		5888250C1AA451D10047F426 /* thumb-up-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thumb-up-7.png"; path = "../../Desktop/JOBOS/thumb-up-7.png"; sourceTree = "<group>"; };
 		5888250D1AA451D10047F426 /* thumb-up-7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thumb-up-7@2x.png"; path = "../../Desktop/JOBOS/thumb-up-7@2x.png"; sourceTree = "<group>"; };
+		58B9B7E01B38D8D00013F650 /* ErrandsFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrandsFeedViewController.h; sourceTree = "<group>"; };
+		58B9B7E11B38D8D00013F650 /* ErrandsFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ErrandsFeedViewController.m; sourceTree = "<group>"; };
+		58B9B7E31B3A4D960013F650 /* AddPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPostViewController.h; sourceTree = "<group>"; };
+		58B9B7E41B3A4D960013F650 /* AddPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPostViewController.m; sourceTree = "<group>"; };
+		58B9B7EF1B3CC6C00013F650 /* FBGTimelineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBGTimelineCell.h; path = "../../Downloads/FB-Gallery-master/FB Gallery/FBGTimelineCell.h"; sourceTree = "<group>"; };
+		58B9B7F01B3CC6C00013F650 /* FBGTimelineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBGTimelineCell.m; path = "../../Downloads/FB-Gallery-master/FB Gallery/FBGTimelineCell.m"; sourceTree = "<group>"; };
+		58B9B7FA1B3D02AB0013F650 /* tiny-simle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiny-simle@2x.png"; path = "../../Downloads/Streamline - Free/PNG/tiny-simle@2x.png"; sourceTree = "<group>"; };
+		58B9B7FB1B3D02AB0013F650 /* tiny-smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiny-smile.png"; path = "../../Downloads/Streamline - Free/PNG/tiny-smile.png"; sourceTree = "<group>"; };
+		58B9B7FE1B3D148D0013F650 /* tiny-edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiny-edit.png"; path = "../../Downloads/Streamline - Free/PNG/tiny-edit.png"; sourceTree = "<group>"; };
+		58B9B7FF1B3D148D0013F650 /* tiny-edit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiny-edit@2x.png"; path = "../../Downloads/Streamline - Free/PNG/tiny-edit@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -270,6 +284,8 @@
 		582E855B1B267FC800108924 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				58B9B7EF1B3CC6C00013F650 /* FBGTimelineCell.h */,
+				58B9B7F01B3CC6C00013F650 /* FBGTimelineCell.m */,
 				582E855F1B26809200108924 /* TinyUser.h */,
 				582E85601B26809200108924 /* TinyUser.m */,
 			);
@@ -282,7 +298,7 @@
 				588825241AA453940047F426 /* ViewControllers */,
 				588824FF1AA44CD60047F426 /* Tabimages */,
 				5888243E1AA449500047F426 /* Stripe */,
-				588824091AA448720047F426 /* Jobos */,
+				588824091AA448720047F426 /* TinyErrands */,
 				588824231AA448730047F426 /* JobosTests */,
 				588824081AA448720047F426 /* Products */,
 				17780F282433D0EB47E47ED5 /* Pods */,
@@ -293,13 +309,13 @@
 		588824081AA448720047F426 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				588824071AA448720047F426 /* Jobos.app */,
-				588824201AA448730047F426 /* JobosTests.xctest */,
+				588824071AA448720047F426 /* Tiny Errands.app */,
+				588824201AA448730047F426 /* Tiny ErrandsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		588824091AA448720047F426 /* Jobos */ = {
+		588824091AA448720047F426 /* TinyErrands */ = {
 			isa = PBXGroup;
 			children = (
 				5888240E1AA448720047F426 /* AppDelegate.h */,
@@ -309,6 +325,7 @@
 				588824191AA448720047F426 /* LaunchScreen.xib */,
 				5888240A1AA448720047F426 /* Supporting Files */,
 			);
+			name = TinyErrands;
 			path = Jobos;
 			sourceTree = "<group>";
 		};
@@ -444,6 +461,10 @@
 		588824FF1AA44CD60047F426 /* Tabimages */ = {
 			isa = PBXGroup;
 			children = (
+				58B9B7FE1B3D148D0013F650 /* tiny-edit.png */,
+				58B9B7FF1B3D148D0013F650 /* tiny-edit@2x.png */,
+				58B9B7FA1B3D02AB0013F650 /* tiny-simle@2x.png */,
+				58B9B7FB1B3D02AB0013F650 /* tiny-smile.png */,
 				5881AFA51B38CA7B00606C25 /* tiny-dollar.png */,
 				5881AFA61B38CA7B00606C25 /* tiny-dollar@2xpng.png */,
 				5881AFA71B38CA7B00606C25 /* tiny-earth.png */,
@@ -481,9 +502,6 @@
 		588825241AA453940047F426 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				588824301AA449500047F426 /* EditPaymentsViewController.m */,
-				588824311AA449500047F426 /* EditPaymentsViewController.h */,
-				582E855B1B267FC800108924 /* Models */,
 				5888246D1AA449500047F426 /* FriendsViewController.h */,
 				5888246B1AA449500047F426 /* FriendsViewController.m */,
 				5888246C1AA449500047F426 /* EditFriendsViewController.m */,
@@ -494,10 +512,15 @@
 				588824751AA449500047F426 /* LogInViewController.h */,
 				588824721AA449500047F426 /* SignUpViewController.m */,
 				588824761AA449500047F426 /* SignUpViewController.h */,
-				588824771AA449500047F426 /* ViewController.h */,
-				588824781AA449500047F426 /* ViewController.m */,
 				588824791AA449500047F426 /* PaymentViewController.h */,
 				5888247A1AA449500047F426 /* PaymentViewController.m */,
+				58B9B7E31B3A4D960013F650 /* AddPostViewController.h */,
+				58B9B7E41B3A4D960013F650 /* AddPostViewController.m */,
+				58B9B7E01B38D8D00013F650 /* ErrandsFeedViewController.h */,
+				58B9B7E11B38D8D00013F650 /* ErrandsFeedViewController.m */,
+				588824301AA449500047F426 /* EditPaymentsViewController.m */,
+				588824311AA449500047F426 /* EditPaymentsViewController.h */,
+				582E855B1B267FC800108924 /* Models */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -516,9 +539,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		588824061AA448720047F426 /* Jobos */ = {
+		588824061AA448720047F426 /* Tiny Errands */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5888242A1AA448730047F426 /* Build configuration list for PBXNativeTarget "Jobos" */;
+			buildConfigurationList = 5888242A1AA448730047F426 /* Build configuration list for PBXNativeTarget "Tiny Errands" */;
 			buildPhases = (
 				29494774127190AF2B6124A7 /* Check Pods Manifest.lock */,
 				588824031AA448720047F426 /* Sources */,
@@ -530,14 +553,14 @@
 			);
 			dependencies = (
 			);
-			name = Jobos;
+			name = "Tiny Errands";
 			productName = Jobos;
-			productReference = 588824071AA448720047F426 /* Jobos.app */;
+			productReference = 588824071AA448720047F426 /* Tiny Errands.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5888241F1AA448730047F426 /* JobosTests */ = {
+		5888241F1AA448730047F426 /* Tiny ErrandsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5888242D1AA448730047F426 /* Build configuration list for PBXNativeTarget "JobosTests" */;
+			buildConfigurationList = 5888242D1AA448730047F426 /* Build configuration list for PBXNativeTarget "Tiny ErrandsTests" */;
 			buildPhases = (
 				5888241C1AA448730047F426 /* Sources */,
 				5888241D1AA448730047F426 /* Frameworks */,
@@ -548,9 +571,9 @@
 			dependencies = (
 				588824221AA448730047F426 /* PBXTargetDependency */,
 			);
-			name = JobosTests;
+			name = "Tiny ErrandsTests";
 			productName = JobosTests;
-			productReference = 588824201AA448730047F426 /* JobosTests.xctest */;
+			productReference = 588824201AA448730047F426 /* Tiny ErrandsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -572,7 +595,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 588824021AA448720047F426 /* Build configuration list for PBXProject "Jobos" */;
+			buildConfigurationList = 588824021AA448720047F426 /* Build configuration list for PBXProject "Tiny Errands" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -585,8 +608,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				588824061AA448720047F426 /* Jobos */,
-				5888241F1AA448730047F426 /* JobosTests */,
+				588824061AA448720047F426 /* Tiny Errands */,
+				5888241F1AA448730047F426 /* Tiny ErrandsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -610,6 +633,8 @@
 				5825649D1AA456A00030A3BA /* plus-simple-7@2x.png in Resources */,
 				5888248D1AA449500047F426 /* Info.plist in Resources */,
 				5881AFA41B38C1C900606C25 /* circle-user-7@2x.png in Resources */,
+				58B9B8011B3D148D0013F650 /* tiny-edit@2x.png in Resources */,
+				58B9B7FD1B3D02AB0013F650 /* tiny-smile.png in Resources */,
 				5881AFB11B38CA7B00606C25 /* tiny-earth.png in Resources */,
 				5881AFB01B38CA7B00606C25 /* tiny-dollar@2xpng.png in Resources */,
 				5825649F1AA456A00030A3BA /* spanner-7@2x.png in Resources */,
@@ -624,10 +649,12 @@
 				5888250F1AA451D10047F426 /* camera-7@2x.png in Resources */,
 				5888251B1AA451D10047F426 /* thumb-up-7@2x.png in Resources */,
 				588824831AA449500047F426 /* Main.storyboard in Resources */,
+				58B9B7FC1B3D02AB0013F650 /* tiny-simle@2x.png in Resources */,
 				5881AFB71B38CA7B00606C25 /* tiny-user.png in Resources */,
 				5881AFB81B38CA7B00606C25 /* tiny-user@2x.png in Resources */,
 				588825181AA451D10047F426 /* earth-america-7.png in Resources */,
 				5888250E1AA451D10047F426 /* camera-7.png in Resources */,
+				58B9B8001B3D148D0013F650 /* tiny-edit.png in Resources */,
 				5825649E1AA456A00030A3BA /* spanner-7.png in Resources */,
 				5881AFB51B38CA7B00606C25 /* tiny-settings.png in Resources */,
 			);
@@ -680,16 +707,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58B9B7E51B3A4D960013F650 /* AddPostViewController.m in Sources */,
+				58B9B7E21B38D8D00013F650 /* ErrandsFeedViewController.m in Sources */,
 				588824871AA449500047F426 /* STPCheckoutOptions.m in Sources */,
 				588824851AA449500047F426 /* Stripe+ApplePay.m in Sources */,
 				588824911AA449500047F426 /* STPCard.m in Sources */,
 				5888248B1AA449500047F426 /* STPOSXCheckoutWebViewAdapter.m in Sources */,
 				588824931AA449500047F426 /* STPToken.m in Sources */,
+				58B9B7F11B3CC6C00013F650 /* FBGTimelineCell.m in Sources */,
 				5888249A1AA449500047F426 /* LogInViewController.m in Sources */,
 				588824821AA449500047F426 /* EditPaymentsViewController.m in Sources */,
 				582E85611B26809200108924 /* TinyUser.m in Sources */,
 				588824921AA449500047F426 /* STPFormEncoder.m in Sources */,
-				5888249B1AA449500047F426 /* ViewController.m in Sources */,
 				588824881AA449500047F426 /* STPCheckoutViewController.m in Sources */,
 				588824951AA449500047F426 /* FriendsViewController.m in Sources */,
 				5888248F1AA449500047F426 /* STPAPIConnection.m in Sources */,
@@ -723,7 +752,7 @@
 /* Begin PBXTargetDependency section */
 		588824221AA448730047F426 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 588824061AA448720047F426 /* Jobos */;
+			target = 588824061AA448720047F426 /* Tiny Errands */;
 			targetProxy = 588824211AA448730047F426 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -831,7 +860,7 @@
 				INFOPLIST_FILE = Jobos/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Tiny Errands";
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
@@ -851,7 +880,7 @@
 				INFOPLIST_FILE = Jobos/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Tiny Errands";
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -870,7 +899,7 @@
 				);
 				INFOPLIST_FILE = JobosTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Tiny ErrandsTests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jobos.app/Jobos";
 			};
 			name = Debug;
@@ -885,7 +914,7 @@
 				);
 				INFOPLIST_FILE = JobosTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Tiny ErrandsTests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jobos.app/Jobos";
 			};
 			name = Release;
@@ -893,7 +922,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		588824021AA448720047F426 /* Build configuration list for PBXProject "Jobos" */ = {
+		588824021AA448720047F426 /* Build configuration list for PBXProject "Tiny Errands" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				588824281AA448730047F426 /* Debug */,
@@ -902,7 +931,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5888242A1AA448730047F426 /* Build configuration list for PBXNativeTarget "Jobos" */ = {
+		5888242A1AA448730047F426 /* Build configuration list for PBXNativeTarget "Tiny Errands" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5888242B1AA448730047F426 /* Debug */,
@@ -911,7 +940,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5888242D1AA448730047F426 /* Build configuration list for PBXNativeTarget "JobosTests" */ = {
+		5888242D1AA448730047F426 /* Build configuration list for PBXNativeTarget "Tiny ErrandsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5888242E1AA448730047F426 /* Debug */,

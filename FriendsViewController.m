@@ -16,6 +16,8 @@
 
 -(void)viewDidLoad{
     [super viewDidLoad];
+    self.tableView.tableFooterView = [[UIView alloc] init] ;
+
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(clearFriendsData:)
                                                  name:@"TestNotification"
