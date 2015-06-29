@@ -28,6 +28,12 @@
 		5881AFB61B38CA7B00606C25 /* tiny-settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5881AFAC1B38CA7B00606C25 /* tiny-settings@2x.png */; };
 		5881AFB71B38CA7B00606C25 /* tiny-user.png in Resources */ = {isa = PBXBuildFile; fileRef = 5881AFAD1B38CA7B00606C25 /* tiny-user.png */; };
 		5881AFB81B38CA7B00606C25 /* tiny-user@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5881AFAE1B38CA7B00606C25 /* tiny-user@2x.png */; };
+		588204171B40D69D001B9822 /* tiny-edit.png in Resources */ = {isa = PBXBuildFile; fileRef = 588204151B40D69D001B9822 /* tiny-edit.png */; };
+		588204181B40D69D001B9822 /* tiny-edit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 588204161B40D69D001B9822 /* tiny-edit@2x.png */; };
+		5882041B1B40E590001B9822 /* AddErrandsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5882041A1B40E590001B9822 /* AddErrandsViewController.m */; };
+		5882041E1B40EA3B001B9822 /* tiny-plus@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5882041C1B40EA3B001B9822 /* tiny-plus@3x.png */; };
+		5882041F1B40EA3B001B9822 /* tiny-plus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5882041D1B40EA3B001B9822 /* tiny-plus@2x.png */; };
+		588204221B41028F001B9822 /* AddButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588204211B41028F001B9822 /* AddButtonView.swift */; };
 		5888240D1AA448720047F426 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5888240C1AA448720047F426 /* main.m */; };
 		588824101AA448720047F426 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5888240F1AA448720047F426 /* AppDelegate.m */; };
 		588824181AA448720047F426 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 588824171AA448720047F426 /* Images.xcassets */; };
@@ -87,12 +93,9 @@
 		5888251A1AA451D10047F426 /* thumb-up-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 5888250C1AA451D10047F426 /* thumb-up-7.png */; };
 		5888251B1AA451D10047F426 /* thumb-up-7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5888250D1AA451D10047F426 /* thumb-up-7@2x.png */; };
 		58B9B7E21B38D8D00013F650 /* ErrandsFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B9B7E11B38D8D00013F650 /* ErrandsFeedViewController.m */; };
-		58B9B7E51B3A4D960013F650 /* AddPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B9B7E41B3A4D960013F650 /* AddPostViewController.m */; };
 		58B9B7F11B3CC6C00013F650 /* FBGTimelineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B9B7F01B3CC6C00013F650 /* FBGTimelineCell.m */; };
 		58B9B7FC1B3D02AB0013F650 /* tiny-simle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B9B7FA1B3D02AB0013F650 /* tiny-simle@2x.png */; };
 		58B9B7FD1B3D02AB0013F650 /* tiny-smile.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B9B7FB1B3D02AB0013F650 /* tiny-smile.png */; };
-		58B9B8001B3D148D0013F650 /* tiny-edit.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B9B7FE1B3D148D0013F650 /* tiny-edit.png */; };
-		58B9B8011B3D148D0013F650 /* tiny-edit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B9B7FF1B3D148D0013F650 /* tiny-edit@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,6 +133,14 @@
 		5881AFAC1B38CA7B00606C25 /* tiny-settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiny-settings@2x.png"; path = "../../Downloads/free_retina_display_friendly_icons/png/tiny-settings@2x.png"; sourceTree = "<group>"; };
 		5881AFAD1B38CA7B00606C25 /* tiny-user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiny-user.png"; path = "../../Downloads/free_retina_display_friendly_icons/png/tiny-user.png"; sourceTree = "<group>"; };
 		5881AFAE1B38CA7B00606C25 /* tiny-user@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiny-user@2x.png"; path = "../../Downloads/free_retina_display_friendly_icons/png/tiny-user@2x.png"; sourceTree = "<group>"; };
+		588204151B40D69D001B9822 /* tiny-edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiny-edit.png"; path = "../../Downloads/Streamline - Free/PNG/tiny-edit.png"; sourceTree = "<group>"; };
+		588204161B40D69D001B9822 /* tiny-edit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiny-edit@2x.png"; path = "../../Downloads/Streamline - Free/PNG/tiny-edit@2x.png"; sourceTree = "<group>"; };
+		588204191B40E590001B9822 /* AddErrandsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddErrandsViewController.h; sourceTree = "<group>"; };
+		5882041A1B40E590001B9822 /* AddErrandsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddErrandsViewController.m; sourceTree = "<group>"; };
+		5882041C1B40EA3B001B9822 /* tiny-plus@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiny-plus@3x.png"; path = "../../Desktop/tiny-plus@3x.png"; sourceTree = "<group>"; };
+		5882041D1B40EA3B001B9822 /* tiny-plus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiny-plus@2x.png"; path = "../../Desktop/tiny-plus@2x.png"; sourceTree = "<group>"; };
+		588204201B41028F001B9822 /* Tiny Errands-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tiny Errands-Bridging-Header.h"; sourceTree = "<group>"; };
+		588204211B41028F001B9822 /* AddButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddButtonView.swift; sourceTree = "<group>"; };
 		588824071AA448720047F426 /* Tiny Errands.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tiny Errands.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5888240B1AA448720047F426 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5888240C1AA448720047F426 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -226,14 +237,10 @@
 		5888250D1AA451D10047F426 /* thumb-up-7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thumb-up-7@2x.png"; path = "../../Desktop/JOBOS/thumb-up-7@2x.png"; sourceTree = "<group>"; };
 		58B9B7E01B38D8D00013F650 /* ErrandsFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrandsFeedViewController.h; sourceTree = "<group>"; };
 		58B9B7E11B38D8D00013F650 /* ErrandsFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ErrandsFeedViewController.m; sourceTree = "<group>"; };
-		58B9B7E31B3A4D960013F650 /* AddPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPostViewController.h; sourceTree = "<group>"; };
-		58B9B7E41B3A4D960013F650 /* AddPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPostViewController.m; sourceTree = "<group>"; };
 		58B9B7EF1B3CC6C00013F650 /* FBGTimelineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBGTimelineCell.h; path = "../../Downloads/FB-Gallery-master/FB Gallery/FBGTimelineCell.h"; sourceTree = "<group>"; };
 		58B9B7F01B3CC6C00013F650 /* FBGTimelineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBGTimelineCell.m; path = "../../Downloads/FB-Gallery-master/FB Gallery/FBGTimelineCell.m"; sourceTree = "<group>"; };
 		58B9B7FA1B3D02AB0013F650 /* tiny-simle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiny-simle@2x.png"; path = "../../Downloads/Streamline - Free/PNG/tiny-simle@2x.png"; sourceTree = "<group>"; };
 		58B9B7FB1B3D02AB0013F650 /* tiny-smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiny-smile.png"; path = "../../Downloads/Streamline - Free/PNG/tiny-smile.png"; sourceTree = "<group>"; };
-		58B9B7FE1B3D148D0013F650 /* tiny-edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiny-edit.png"; path = "../../Downloads/Streamline - Free/PNG/tiny-edit.png"; sourceTree = "<group>"; };
-		58B9B7FF1B3D148D0013F650 /* tiny-edit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiny-edit@2x.png"; path = "../../Downloads/Streamline - Free/PNG/tiny-edit@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -284,10 +291,12 @@
 		582E855B1B267FC800108924 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				588204211B41028F001B9822 /* AddButtonView.swift */,
 				58B9B7EF1B3CC6C00013F650 /* FBGTimelineCell.h */,
 				58B9B7F01B3CC6C00013F650 /* FBGTimelineCell.m */,
 				582E855F1B26809200108924 /* TinyUser.h */,
 				582E85601B26809200108924 /* TinyUser.m */,
+				588204201B41028F001B9822 /* Tiny Errands-Bridging-Header.h */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -461,8 +470,10 @@
 		588824FF1AA44CD60047F426 /* Tabimages */ = {
 			isa = PBXGroup;
 			children = (
-				58B9B7FE1B3D148D0013F650 /* tiny-edit.png */,
-				58B9B7FF1B3D148D0013F650 /* tiny-edit@2x.png */,
+				5882041C1B40EA3B001B9822 /* tiny-plus@3x.png */,
+				5882041D1B40EA3B001B9822 /* tiny-plus@2x.png */,
+				588204151B40D69D001B9822 /* tiny-edit.png */,
+				588204161B40D69D001B9822 /* tiny-edit@2x.png */,
 				58B9B7FA1B3D02AB0013F650 /* tiny-simle@2x.png */,
 				58B9B7FB1B3D02AB0013F650 /* tiny-smile.png */,
 				5881AFA51B38CA7B00606C25 /* tiny-dollar.png */,
@@ -502,6 +513,8 @@
 		588825241AA453940047F426 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				588204191B40E590001B9822 /* AddErrandsViewController.h */,
+				5882041A1B40E590001B9822 /* AddErrandsViewController.m */,
 				5888246D1AA449500047F426 /* FriendsViewController.h */,
 				5888246B1AA449500047F426 /* FriendsViewController.m */,
 				5888246C1AA449500047F426 /* EditFriendsViewController.m */,
@@ -514,8 +527,6 @@
 				588824761AA449500047F426 /* SignUpViewController.h */,
 				588824791AA449500047F426 /* PaymentViewController.h */,
 				5888247A1AA449500047F426 /* PaymentViewController.m */,
-				58B9B7E31B3A4D960013F650 /* AddPostViewController.h */,
-				58B9B7E41B3A4D960013F650 /* AddPostViewController.m */,
 				58B9B7E01B38D8D00013F650 /* ErrandsFeedViewController.h */,
 				58B9B7E11B38D8D00013F650 /* ErrandsFeedViewController.m */,
 				588824301AA449500047F426 /* EditPaymentsViewController.m */,
@@ -621,6 +632,8 @@
 			files = (
 				5881AFA31B38C1C900606C25 /* circle-user-7.png in Resources */,
 				588825141AA451D10047F426 /* connect-arrow-left-right-7.png in Resources */,
+				5882041F1B40EA3B001B9822 /* tiny-plus@2x.png in Resources */,
+				5882041E1B40EA3B001B9822 /* tiny-plus@3x.png in Resources */,
 				5825649C1AA456A00030A3BA /* plus-simple-7.png in Resources */,
 				5881AFB21B38CA7B00606C25 /* tiny-earth@2x.png in Resources */,
 				588825131AA451D10047F426 /* circle-user-7@2x.png in Resources */,
@@ -633,7 +646,7 @@
 				5825649D1AA456A00030A3BA /* plus-simple-7@2x.png in Resources */,
 				5888248D1AA449500047F426 /* Info.plist in Resources */,
 				5881AFA41B38C1C900606C25 /* circle-user-7@2x.png in Resources */,
-				58B9B8011B3D148D0013F650 /* tiny-edit@2x.png in Resources */,
+				588204181B40D69D001B9822 /* tiny-edit@2x.png in Resources */,
 				58B9B7FD1B3D02AB0013F650 /* tiny-smile.png in Resources */,
 				5881AFB11B38CA7B00606C25 /* tiny-earth.png in Resources */,
 				5881AFB01B38CA7B00606C25 /* tiny-dollar@2xpng.png in Resources */,
@@ -654,7 +667,7 @@
 				5881AFB81B38CA7B00606C25 /* tiny-user@2x.png in Resources */,
 				588825181AA451D10047F426 /* earth-america-7.png in Resources */,
 				5888250E1AA451D10047F426 /* camera-7.png in Resources */,
-				58B9B8001B3D148D0013F650 /* tiny-edit.png in Resources */,
+				588204171B40D69D001B9822 /* tiny-edit.png in Resources */,
 				5825649E1AA456A00030A3BA /* spanner-7.png in Resources */,
 				5881AFB51B38CA7B00606C25 /* tiny-settings.png in Resources */,
 			);
@@ -707,7 +720,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58B9B7E51B3A4D960013F650 /* AddPostViewController.m in Sources */,
 				58B9B7E21B38D8D00013F650 /* ErrandsFeedViewController.m in Sources */,
 				588824871AA449500047F426 /* STPCheckoutOptions.m in Sources */,
 				588824851AA449500047F426 /* Stripe+ApplePay.m in Sources */,
@@ -733,8 +745,10 @@
 				588824901AA449500047F426 /* STPBankAccount.m in Sources */,
 				5888248A1AA449500047F426 /* STPIOSCheckoutWebViewAdapter.m in Sources */,
 				588824861AA449500047F426 /* STPCheckoutInternalUIWebViewController.m in Sources */,
+				5882041B1B40E590001B9822 /* AddErrandsViewController.m in Sources */,
 				588824941AA449500047F426 /* StripeError.m in Sources */,
 				5888240D1AA448720047F426 /* main.m in Sources */,
+				588204221B41028F001B9822 /* AddButtonView.swift in Sources */,
 				5888248C1AA449500047F426 /* STPStrictURLProtocol.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -788,6 +802,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEFINES_MODULE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -806,6 +821,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_MODULE_NAME = TinyErrands;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -829,6 +845,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				DEFINES_MODULE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -840,6 +857,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_MODULE_NAME = TinyErrands;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -850,6 +868,7 @@
 			baseConfigurationReference = 4009B77843D79085A66B3949 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -862,6 +881,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "Tiny Errands";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tiny Errands-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -870,6 +891,7 @@
 			baseConfigurationReference = 48DF50002340782A860471E7 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -882,6 +904,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "Tiny Errands";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tiny Errands-Bridging-Header.h";
 			};
 			name = Release;
 		};
