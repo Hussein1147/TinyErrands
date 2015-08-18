@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AddErrandsDetailViewController.h"
+#import "TinyErrand.h"
+#import "PlayerCellTableViewCell.h"
 
-@interface AddErrandsViewController : UITableViewController
+@interface AddErrandsViewController : UITableViewController <AddErrandsDetaillViewControllerDelegate>
+
 
 
 @end

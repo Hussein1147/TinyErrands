@@ -13,7 +13,8 @@
 #define TINY_FOLOW_POST_URL @"https://tinyerrands-jobos.rhcloud.com/follow"
 #define TINY_GET_FOLLOWERS_POST_URL @"https://tinyerrands-jobos.rhcloud.com/get_followers"
 #define TINY_ADD_ERRANDS_POST_URL @"https://tinyerrands-jobos.rhcloud.com/add_post"
-#define TINY_GET_ERRANDS_POST_URL @"https://tinyerrands-jobos.rhcloud.com/get_followed_post"
+#define TINY_GET_FOLLOWED_ERRANDS_POST_URL @"https://tinyerrands-jobos.rhcloud.com/get_followed_post"
+#define TINY_GET_MY_ERRANDS_POST_URL @"https://tinyerrands-jobos.rhcloud.com/get_myposts"
 
 @interface TinyUser()
 @property (nonatomic,strong) NSMutableArray *arrayOfUsers;
@@ -159,7 +160,7 @@
          }
      }];
 }
--(void)addPost:(NSString *)content completion:(void (^)(id responseObject, NSError *error))completionHandler{
+-(void)addPost:(NSString *)content dueIn:(NSInteger)dueIn startTime:(NSString *)startTime completion:(void (^)(id responseObject, NSError *error))completionHandler{
     
     
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
@@ -168,6 +169,8 @@
     NSMutableDictionary* postRequestDictionary = [[NSMutableDictionary alloc] init];
     postRequestDictionary[@"currentUserEmail"] = self.email;
     postRequestDictionary[@"myPost"] = content;
+    postRequestDictionary[@"dueDate"] = [NSString stringWithFormat:@"%ld",dueIn];
+    postRequestDictionary[@"startTime"] = startTime;
 
     [manager POST:TINY_ADD_ERRANDS_POST_URL parameters:postRequestDictionary
           success:^(AFHTTPRequestOperation *operation, id responseObject)
@@ -186,7 +189,7 @@
 
     
 }
--(void)getposts:(void (^) (id responseObject, NSError *error))completionHandler{
+-(void)getFollowedPosts:(void (^) (id responseObject, NSError *error))completionHandler{
 
     
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
@@ -195,7 +198,7 @@
     NSMutableDictionary* postRequestDictionary = [[NSMutableDictionary alloc] init];
     postRequestDictionary[@"currentUserEmail"] = self.email;
     
-    [manager POST:TINY_GET_ERRANDS_POST_URL parameters:postRequestDictionary
+    [manager POST:TINY_GET_FOLLOWED_ERRANDS_POST_URL parameters:postRequestDictionary
           success:^(AFHTTPRequestOperation *operation, id responseObject)
      {
          if (completionHandler) {
@@ -211,4 +214,30 @@
      }];
 
 }
+-(void)getMyPosts:(void (^) (id responseObject, NSError *error))completionHandler{
+    
+    
+    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+    manager.requestSerializer = [AFJSONRequestSerializer serializer];
+    manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/json", @"text/javascript",@"text/html", nil];;
+    NSMutableDictionary* postRequestDictionary = [[NSMutableDictionary alloc] init];
+    postRequestDictionary[@"currentUserEmail"] = self.email;
+    
+    [manager POST:TINY_GET_MY_ERRANDS_POST_URL parameters:postRequestDictionary
+          success:^(AFHTTPRequestOperation *operation, id responseObject)
+     {
+         if (completionHandler) {
+             completionHandler(responseObject,nil);
+         }
+         
+     }
+          failure:
+     ^(AFHTTPRequestOperation *operation, NSError *error) {
+         if (completionHandler) {
+             completionHandler(error,nil);
+         }
+     }];
+    
+}
+
  @end

@@ -16,6 +16,7 @@
 		582E85581B267CB800108924 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582E85571B267CB800108924 /* Accounts.framework */; };
 		582E855A1B267CC000108924 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582E85591B267CC000108924 /* Twitter.framework */; };
 		582E85611B26809200108924 /* TinyUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 582E85601B26809200108924 /* TinyUser.m */; };
+		586E357D1B4646E000EC2683 /* MyCustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 586E357C1B4646E000EC2683 /* MyCustomTableViewCell.m */; };
 		5881AFA31B38C1C900606C25 /* circle-user-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 5881AFA11B38C1C900606C25 /* circle-user-7.png */; };
 		5881AFA41B38C1C900606C25 /* circle-user-7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5881AFA21B38C1C900606C25 /* circle-user-7@2x.png */; };
 		5881AFAF1B38CA7B00606C25 /* tiny-dollar.png in Resources */ = {isa = PBXBuildFile; fileRef = 5881AFA51B38CA7B00606C25 /* tiny-dollar.png */; };
@@ -96,6 +97,9 @@
 		58B9B7F11B3CC6C00013F650 /* FBGTimelineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B9B7F01B3CC6C00013F650 /* FBGTimelineCell.m */; };
 		58B9B7FC1B3D02AB0013F650 /* tiny-simle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B9B7FA1B3D02AB0013F650 /* tiny-simle@2x.png */; };
 		58B9B7FD1B3D02AB0013F650 /* tiny-smile.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B9B7FB1B3D02AB0013F650 /* tiny-smile.png */; };
+		58EE0A221B52104F000E1DA5 /* TinyErrand.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EE0A211B52104F000E1DA5 /* TinyErrand.m */; };
+		58EE0A251B522447000E1DA5 /* PlayerCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EE0A241B522447000E1DA5 /* PlayerCellTableViewCell.m */; };
+		58F2AA7E1B4223F100429310 /* AddErrandsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F2AA7D1B4223F100429310 /* AddErrandsDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,6 +125,8 @@
 		582E85591B267CC000108924 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		582E855F1B26809200108924 /* TinyUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinyUser.h; sourceTree = "<group>"; };
 		582E85601B26809200108924 /* TinyUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TinyUser.m; sourceTree = "<group>"; };
+		586E357B1B4646E000EC2683 /* MyCustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomTableViewCell.h; sourceTree = "<group>"; };
+		586E357C1B4646E000EC2683 /* MyCustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomTableViewCell.m; sourceTree = "<group>"; };
 		5881AFA11B38C1C900606C25 /* circle-user-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "circle-user-7.png"; path = "../../Downloads/iconbeast-lite-200/iconbeast lite 200 - png/circle-user-7.png"; sourceTree = "<group>"; };
 		5881AFA21B38C1C900606C25 /* circle-user-7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "circle-user-7@2x.png"; path = "../../Downloads/iconbeast-lite-200/iconbeast lite 200 - png/circle-user-7@2x.png"; sourceTree = "<group>"; };
 		5881AFA51B38CA7B00606C25 /* tiny-dollar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiny-dollar.png"; path = "../../Downloads/free_retina_display_friendly_icons/png/tiny-dollar.png"; sourceTree = "<group>"; };
@@ -241,6 +247,12 @@
 		58B9B7F01B3CC6C00013F650 /* FBGTimelineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBGTimelineCell.m; path = "../../Downloads/FB-Gallery-master/FB Gallery/FBGTimelineCell.m"; sourceTree = "<group>"; };
 		58B9B7FA1B3D02AB0013F650 /* tiny-simle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiny-simle@2x.png"; path = "../../Downloads/Streamline - Free/PNG/tiny-simle@2x.png"; sourceTree = "<group>"; };
 		58B9B7FB1B3D02AB0013F650 /* tiny-smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiny-smile.png"; path = "../../Downloads/Streamline - Free/PNG/tiny-smile.png"; sourceTree = "<group>"; };
+		58EE0A201B52104F000E1DA5 /* TinyErrand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinyErrand.h; sourceTree = "<group>"; };
+		58EE0A211B52104F000E1DA5 /* TinyErrand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TinyErrand.m; sourceTree = "<group>"; };
+		58EE0A231B522447000E1DA5 /* PlayerCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerCellTableViewCell.h; sourceTree = "<group>"; };
+		58EE0A241B522447000E1DA5 /* PlayerCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerCellTableViewCell.m; sourceTree = "<group>"; };
+		58F2AA7C1B4223F100429310 /* AddErrandsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddErrandsDetailViewController.h; sourceTree = "<group>"; };
+		58F2AA7D1B4223F100429310 /* AddErrandsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddErrandsDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -291,12 +303,18 @@
 		582E855B1B267FC800108924 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				58EE0A231B522447000E1DA5 /* PlayerCellTableViewCell.h */,
+				58EE0A241B522447000E1DA5 /* PlayerCellTableViewCell.m */,
+				586E357B1B4646E000EC2683 /* MyCustomTableViewCell.h */,
+				586E357C1B4646E000EC2683 /* MyCustomTableViewCell.m */,
 				588204211B41028F001B9822 /* AddButtonView.swift */,
 				58B9B7EF1B3CC6C00013F650 /* FBGTimelineCell.h */,
 				58B9B7F01B3CC6C00013F650 /* FBGTimelineCell.m */,
 				582E855F1B26809200108924 /* TinyUser.h */,
 				582E85601B26809200108924 /* TinyUser.m */,
 				588204201B41028F001B9822 /* Tiny Errands-Bridging-Header.h */,
+				58EE0A201B52104F000E1DA5 /* TinyErrand.h */,
+				58EE0A211B52104F000E1DA5 /* TinyErrand.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -513,6 +531,8 @@
 		588825241AA453940047F426 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				58F2AA7C1B4223F100429310 /* AddErrandsDetailViewController.h */,
+				58F2AA7D1B4223F100429310 /* AddErrandsDetailViewController.m */,
 				588204191B40E590001B9822 /* AddErrandsViewController.h */,
 				5882041A1B40E590001B9822 /* AddErrandsViewController.m */,
 				5888246D1AA449500047F426 /* FriendsViewController.h */,
@@ -720,6 +740,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58EE0A251B522447000E1DA5 /* PlayerCellTableViewCell.m in Sources */,
+				58EE0A221B52104F000E1DA5 /* TinyErrand.m in Sources */,
 				58B9B7E21B38D8D00013F650 /* ErrandsFeedViewController.m in Sources */,
 				588824871AA449500047F426 /* STPCheckoutOptions.m in Sources */,
 				588824851AA449500047F426 /* Stripe+ApplePay.m in Sources */,
@@ -730,6 +752,7 @@
 				5888249A1AA449500047F426 /* LogInViewController.m in Sources */,
 				588824821AA449500047F426 /* EditPaymentsViewController.m in Sources */,
 				582E85611B26809200108924 /* TinyUser.m in Sources */,
+				58F2AA7E1B4223F100429310 /* AddErrandsDetailViewController.m in Sources */,
 				588824921AA449500047F426 /* STPFormEncoder.m in Sources */,
 				588824881AA449500047F426 /* STPCheckoutViewController.m in Sources */,
 				588824951AA449500047F426 /* FriendsViewController.m in Sources */,
@@ -741,6 +764,7 @@
 				588824841AA449500047F426 /* STPAPIClient+ApplePay.m in Sources */,
 				588824971AA449500047F426 /* InboxViewController.m in Sources */,
 				5888249C1AA449500047F426 /* PaymentViewController.m in Sources */,
+				586E357D1B4646E000EC2683 /* MyCustomTableViewCell.m in Sources */,
 				5888248E1AA449500047F426 /* STPAPIClient.m in Sources */,
 				588824901AA449500047F426 /* STPBankAccount.m in Sources */,
 				5888248A1AA449500047F426 /* STPIOSCheckoutWebViewAdapter.m in Sources */,

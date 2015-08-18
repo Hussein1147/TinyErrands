@@ -14,7 +14,7 @@
 
 -(void)viewDidLoad{
     [super viewDidLoad];
-    [self.navigationItem setTitle:@"Poke"];
+    [self.navigationItem setTitle:@"TinyErrands"];
     
 }
 - (IBAction)signin:(id)sender {

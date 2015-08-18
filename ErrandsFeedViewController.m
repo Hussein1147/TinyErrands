@@ -42,7 +42,7 @@
     [super viewWillAppear:animated];
     
     
-    [self.tinyUser getposts:^(id responseObject, NSError *error) {
+    [self.tinyUser getFollowedPosts:^(id responseObject, NSError *error) {
         if (error) {
             UIAlertView *arlertView = [[UIAlertView alloc]initWithTitle:@"Yaiks!" message:[error.userInfo objectForKey:@"error"] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
             [arlertView show];

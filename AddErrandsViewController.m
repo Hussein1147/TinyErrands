@@ -8,26 +8,75 @@
 
 #import "AddErrandsViewController.h"
 #import <QuartzCore/QuartzCore.h>
+#import <Parse/Parse.h>
 #import "TinyErrands-Swift.h"
+#import "PlayerCellTableViewCell.h"
+#import "TinyUser.h"
 
 @interface AddErrandsViewController ()
 
+@property(nonatomic,strong) NSMutableArray *errands;
+@property(nonatomic,strong) UIRefreshControl *refreshCtrl;
+@property(nonatomic,strong) TinyUser *tinyUser;
 @end
 
 @implementation AddErrandsViewController
 
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+    PFUser *current = [PFUser currentUser];
+    self.tinyUser = [[TinyUser alloc]init];
+    self.tinyUser.email = current.email;
     
     
+    /* creating the refrsh control*/
+    
+    self.refreshControl = [[UIRefreshControl alloc]init];
+    self.refreshCtrl =self.refreshControl;
+    [self.refreshControl addTarget:self action:@selector(handleRefresh) forControlEvents:UIControlEventValueChanged];
+    [self.tinyUser getMyPosts:^(id responseObject, NSError *error) {
+        if (!responseObject) {
+            NSLog(@"some error occured");
+        }else{
+            self.errands = [responseObject valueForKey:@"data"];
+            [self.refreshControl endRefreshing];
+            [self.tableView reloadData];
+            
+        }
+    }];
 
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+
+
 }
 
+-(NSMutableArray *)errands {
+    
+    if(!_errands)_errands = [[NSMutableArray alloc]init];
+    return _errands;
+    
+}
+
+-(void)handleRefresh{
+        int64_t delayInSeconds = 1.0f;
+   dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, delayInSeconds * NSEC_PER_SEC);
+    dispatch_after(popTime, dispatch_get_main_queue(), ^{
+    
+      [self.tinyUser getMyPosts:^(id responseObject, NSError *error) {
+          if (!responseObject) {
+              NSLog(@"some error occured");
+          }else{
+                  self.errands = [responseObject valueForKey:@"data"];
+                  [self.refreshControl endRefreshing];
+              [self.tableView reloadData];
+             
+          }
+      }];
+
+    });
+    
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -36,27 +85,39 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 0;
+    return [self.errands count];
 }
 
-
-/*
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+-(UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
-    // Configure the cell...
-    
+    PlayerCellTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"PlayerCell"];
+        NSMutableDictionary *errand =(self.errands)[indexPath.row];
+        cell.errandDescription.text = [errand valueForKey:@"myPost"];
+        cell.dueIn.text = [NSString stringWithString:[errand valueForKey:@"postedDate"]];
+   
     return cell;
+
 }
-*/
+#pragma mark - Delegate methods
+
+-(void)errandsDetailViewController:(AddErrandsDetailViewController *)controller{
+
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+-(void)errandsDetailViewControllerDidCancel:(AddErrandsDetailViewController *)controller{
+
+
+    [self dismissViewControllerAnimated:YES completion:nil];
+
+}
+
 
 /*
 // Override to support conditional editing of the table view.
@@ -78,28 +139,19 @@
 }
 */
 
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
-}
-*/
 
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
 
-/*
 #pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    
+    if ([segue.identifier isEqualToString:@"AddTask"]){
+        UINavigationController *navigationController = segue.destinationViewController;
+        
+        AddErrandsDetailViewController *addDetailViewController = [navigationController viewControllers][0];
+        addDetailViewController.delegate =self;
+    
+    }
 }
-*/
 
 @end
