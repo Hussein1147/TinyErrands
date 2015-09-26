@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "31BBF4AF400BA0FCB5663D68F5F220D9DC6EE61C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A5C151FC3F18980DA2906AAA3DE9140767EF2310" : 0,
+    "31BBF4AF400BA0FCB5663D68F5F220D9DC6EE61C" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "31AD1F6A-2F1F-456E-B555-18DC2758AD74",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A5C151FC3F18980DA2906AAA3DE9140767EF2310" : "Jobos\/stripe-ios\/",
+    "31BBF4AF400BA0FCB5663D68F5F220D9DC6EE61C" : "Jobos\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Jobos",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Jobos.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Hussein1147\/TinyErrands.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "31BBF4AF400BA0FCB5663D68F5F220D9DC6EE61C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/stripe\/stripe-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A5C151FC3F18980DA2906AAA3DE9140767EF2310"
+    }
+  ]
+}

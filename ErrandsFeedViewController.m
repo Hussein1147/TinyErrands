@@ -36,6 +36,11 @@
     self.currentUser = [PFUser currentUser];
     self.tinyUser.email =self.currentUser.email;
     
+
+    
+    
+    
+    
 }
 
 -(void)viewWillAppear:(BOOL)animated{

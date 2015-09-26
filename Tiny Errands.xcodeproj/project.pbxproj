@@ -8,36 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		4C61373DEC1B8F3EF49062B2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 469F2D9750B1EA555F585479 /* libPods.a */; };
-		5825649C1AA456A00030A3BA /* plus-simple-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 582564981AA456A00030A3BA /* plus-simple-7.png */; };
-		5825649D1AA456A00030A3BA /* plus-simple-7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 582564991AA456A00030A3BA /* plus-simple-7@2x.png */; };
-		5825649E1AA456A00030A3BA /* spanner-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 5825649A1AA456A00030A3BA /* spanner-7.png */; };
-		5825649F1AA456A00030A3BA /* spanner-7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5825649B1AA456A00030A3BA /* spanner-7@2x.png */; };
 		582E85561B267C7F00108924 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582E85551B267C7F00108924 /* Social.framework */; };
 		582E85581B267CB800108924 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582E85571B267CB800108924 /* Accounts.framework */; };
 		582E855A1B267CC000108924 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582E85591B267CC000108924 /* Twitter.framework */; };
 		582E85611B26809200108924 /* TinyUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 582E85601B26809200108924 /* TinyUser.m */; };
+		584CFC5D1BB64D7A0001E4BF /* FBGTimelineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 584CFC5C1BB64D7A0001E4BF /* FBGTimelineCell.m */; settings = {ASSET_TAGS = (); }; };
+		584CFC671BB664E50001E4BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 584CFC661BB664E50001E4BF /* Images.xcassets */; settings = {ASSET_TAGS = (); }; };
 		586E357D1B4646E000EC2683 /* MyCustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 586E357C1B4646E000EC2683 /* MyCustomTableViewCell.m */; };
-		5881AFA31B38C1C900606C25 /* circle-user-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 5881AFA11B38C1C900606C25 /* circle-user-7.png */; };
-		5881AFA41B38C1C900606C25 /* circle-user-7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5881AFA21B38C1C900606C25 /* circle-user-7@2x.png */; };
-		5881AFAF1B38CA7B00606C25 /* tiny-dollar.png in Resources */ = {isa = PBXBuildFile; fileRef = 5881AFA51B38CA7B00606C25 /* tiny-dollar.png */; };
-		5881AFB01B38CA7B00606C25 /* tiny-dollar@2xpng.png in Resources */ = {isa = PBXBuildFile; fileRef = 5881AFA61B38CA7B00606C25 /* tiny-dollar@2xpng.png */; };
-		5881AFB11B38CA7B00606C25 /* tiny-earth.png in Resources */ = {isa = PBXBuildFile; fileRef = 5881AFA71B38CA7B00606C25 /* tiny-earth.png */; };
-		5881AFB21B38CA7B00606C25 /* tiny-earth@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5881AFA81B38CA7B00606C25 /* tiny-earth@2x.png */; };
-		5881AFB31B38CA7B00606C25 /* tiny-friends.png in Resources */ = {isa = PBXBuildFile; fileRef = 5881AFA91B38CA7B00606C25 /* tiny-friends.png */; };
-		5881AFB41B38CA7B00606C25 /* tiny-friends@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5881AFAA1B38CA7B00606C25 /* tiny-friends@2x.png */; };
-		5881AFB51B38CA7B00606C25 /* tiny-settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 5881AFAB1B38CA7B00606C25 /* tiny-settings.png */; };
-		5881AFB61B38CA7B00606C25 /* tiny-settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5881AFAC1B38CA7B00606C25 /* tiny-settings@2x.png */; };
-		5881AFB71B38CA7B00606C25 /* tiny-user.png in Resources */ = {isa = PBXBuildFile; fileRef = 5881AFAD1B38CA7B00606C25 /* tiny-user.png */; };
-		5881AFB81B38CA7B00606C25 /* tiny-user@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5881AFAE1B38CA7B00606C25 /* tiny-user@2x.png */; };
-		588204171B40D69D001B9822 /* tiny-edit.png in Resources */ = {isa = PBXBuildFile; fileRef = 588204151B40D69D001B9822 /* tiny-edit.png */; };
-		588204181B40D69D001B9822 /* tiny-edit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 588204161B40D69D001B9822 /* tiny-edit@2x.png */; };
 		5882041B1B40E590001B9822 /* AddErrandsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5882041A1B40E590001B9822 /* AddErrandsViewController.m */; };
-		5882041E1B40EA3B001B9822 /* tiny-plus@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5882041C1B40EA3B001B9822 /* tiny-plus@3x.png */; };
-		5882041F1B40EA3B001B9822 /* tiny-plus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5882041D1B40EA3B001B9822 /* tiny-plus@2x.png */; };
 		588204221B41028F001B9822 /* AddButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588204211B41028F001B9822 /* AddButtonView.swift */; };
 		5888240D1AA448720047F426 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5888240C1AA448720047F426 /* main.m */; };
 		588824101AA448720047F426 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5888240F1AA448720047F426 /* AppDelegate.m */; };
-		588824181AA448720047F426 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 588824171AA448720047F426 /* Images.xcassets */; };
 		5888241B1AA448720047F426 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 588824191AA448720047F426 /* LaunchScreen.xib */; };
 		588824271AA448730047F426 /* JobosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 588824261AA448730047F426 /* JobosTests.m */; };
 		588824821AA449500047F426 /* EditPaymentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 588824301AA449500047F426 /* EditPaymentsViewController.m */; };
@@ -79,24 +60,8 @@
 		588824C81AA44AF70047F426 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 588824BE1AA44AF70047F426 /* Security.framework */; };
 		588824C91AA44AF70047F426 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 588824BF1AA44AF70047F426 /* StoreKit.framework */; };
 		588824CA1AA44AF70047F426 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 588824C01AA44AF70047F426 /* SystemConfiguration.framework */; };
-		5888250E1AA451D10047F426 /* camera-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 588825001AA451D10047F426 /* camera-7.png */; };
-		5888250F1AA451D10047F426 /* camera-7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 588825011AA451D10047F426 /* camera-7@2x.png */; };
-		588825101AA451D10047F426 /* circle-tick-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 588825021AA451D10047F426 /* circle-tick-7.png */; };
-		588825111AA451D10047F426 /* circle-tick-7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 588825031AA451D10047F426 /* circle-tick-7@2x.png */; };
-		588825121AA451D10047F426 /* circle-user-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 588825041AA451D10047F426 /* circle-user-7.png */; };
-		588825131AA451D10047F426 /* circle-user-7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 588825051AA451D10047F426 /* circle-user-7@2x.png */; };
-		588825141AA451D10047F426 /* connect-arrow-left-right-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 588825061AA451D10047F426 /* connect-arrow-left-right-7.png */; };
-		588825151AA451D10047F426 /* connect-arrow-left-right-7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 588825071AA451D10047F426 /* connect-arrow-left-right-7@2x.png */; };
-		588825161AA451D10047F426 /* credit-card-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 588825081AA451D10047F426 /* credit-card-7.png */; };
-		588825171AA451D10047F426 /* credit-card-7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 588825091AA451D10047F426 /* credit-card-7@2x.png */; };
-		588825181AA451D10047F426 /* earth-america-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 5888250A1AA451D10047F426 /* earth-america-7.png */; };
-		588825191AA451D10047F426 /* earth-america-7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5888250B1AA451D10047F426 /* earth-america-7@2x.png */; };
-		5888251A1AA451D10047F426 /* thumb-up-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 5888250C1AA451D10047F426 /* thumb-up-7.png */; };
 		5888251B1AA451D10047F426 /* thumb-up-7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5888250D1AA451D10047F426 /* thumb-up-7@2x.png */; };
 		58B9B7E21B38D8D00013F650 /* ErrandsFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B9B7E11B38D8D00013F650 /* ErrandsFeedViewController.m */; };
-		58B9B7F11B3CC6C00013F650 /* FBGTimelineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B9B7F01B3CC6C00013F650 /* FBGTimelineCell.m */; };
-		58B9B7FC1B3D02AB0013F650 /* tiny-simle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B9B7FA1B3D02AB0013F650 /* tiny-simle@2x.png */; };
-		58B9B7FD1B3D02AB0013F650 /* tiny-smile.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B9B7FB1B3D02AB0013F650 /* tiny-smile.png */; };
 		58EE0A221B52104F000E1DA5 /* TinyErrand.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EE0A211B52104F000E1DA5 /* TinyErrand.m */; };
 		58EE0A251B522447000E1DA5 /* PlayerCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EE0A241B522447000E1DA5 /* PlayerCellTableViewCell.m */; };
 		58F2AA7E1B4223F100429310 /* AddErrandsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F2AA7D1B4223F100429310 /* AddErrandsDetailViewController.m */; };
@@ -116,35 +81,18 @@
 		4009B77843D79085A66B3949 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		469F2D9750B1EA555F585479 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		48DF50002340782A860471E7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		582564981AA456A00030A3BA /* plus-simple-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus-simple-7.png"; sourceTree = "<group>"; };
-		582564991AA456A00030A3BA /* plus-simple-7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus-simple-7@2x.png"; sourceTree = "<group>"; };
-		5825649A1AA456A00030A3BA /* spanner-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spanner-7.png"; sourceTree = "<group>"; };
-		5825649B1AA456A00030A3BA /* spanner-7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spanner-7@2x.png"; sourceTree = "<group>"; };
 		582E85551B267C7F00108924 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		582E85571B267CB800108924 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		582E85591B267CC000108924 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		582E855F1B26809200108924 /* TinyUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinyUser.h; sourceTree = "<group>"; };
 		582E85601B26809200108924 /* TinyUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TinyUser.m; sourceTree = "<group>"; };
+		584CFC5B1BB64D7A0001E4BF /* FBGTimelineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBGTimelineCell.h; sourceTree = "<group>"; };
+		584CFC5C1BB64D7A0001E4BF /* FBGTimelineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBGTimelineCell.m; sourceTree = "<group>"; };
+		584CFC661BB664E50001E4BF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		586E357B1B4646E000EC2683 /* MyCustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomTableViewCell.h; sourceTree = "<group>"; };
 		586E357C1B4646E000EC2683 /* MyCustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomTableViewCell.m; sourceTree = "<group>"; };
-		5881AFA11B38C1C900606C25 /* circle-user-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "circle-user-7.png"; path = "../../Downloads/iconbeast-lite-200/iconbeast lite 200 - png/circle-user-7.png"; sourceTree = "<group>"; };
-		5881AFA21B38C1C900606C25 /* circle-user-7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "circle-user-7@2x.png"; path = "../../Downloads/iconbeast-lite-200/iconbeast lite 200 - png/circle-user-7@2x.png"; sourceTree = "<group>"; };
-		5881AFA51B38CA7B00606C25 /* tiny-dollar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiny-dollar.png"; path = "../../Downloads/free_retina_display_friendly_icons/png/tiny-dollar.png"; sourceTree = "<group>"; };
-		5881AFA61B38CA7B00606C25 /* tiny-dollar@2xpng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiny-dollar@2xpng.png"; path = "../../Downloads/free_retina_display_friendly_icons/png/tiny-dollar@2xpng.png"; sourceTree = "<group>"; };
-		5881AFA71B38CA7B00606C25 /* tiny-earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiny-earth.png"; path = "../../Downloads/free_retina_display_friendly_icons/png/tiny-earth.png"; sourceTree = "<group>"; };
-		5881AFA81B38CA7B00606C25 /* tiny-earth@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiny-earth@2x.png"; path = "../../Downloads/free_retina_display_friendly_icons/png/tiny-earth@2x.png"; sourceTree = "<group>"; };
-		5881AFA91B38CA7B00606C25 /* tiny-friends.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiny-friends.png"; path = "../../Downloads/free_retina_display_friendly_icons/png/tiny-friends.png"; sourceTree = "<group>"; };
-		5881AFAA1B38CA7B00606C25 /* tiny-friends@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiny-friends@2x.png"; path = "../../Downloads/free_retina_display_friendly_icons/png/tiny-friends@2x.png"; sourceTree = "<group>"; };
-		5881AFAB1B38CA7B00606C25 /* tiny-settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiny-settings.png"; path = "../../Downloads/free_retina_display_friendly_icons/png/tiny-settings.png"; sourceTree = "<group>"; };
-		5881AFAC1B38CA7B00606C25 /* tiny-settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiny-settings@2x.png"; path = "../../Downloads/free_retina_display_friendly_icons/png/tiny-settings@2x.png"; sourceTree = "<group>"; };
-		5881AFAD1B38CA7B00606C25 /* tiny-user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiny-user.png"; path = "../../Downloads/free_retina_display_friendly_icons/png/tiny-user.png"; sourceTree = "<group>"; };
-		5881AFAE1B38CA7B00606C25 /* tiny-user@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiny-user@2x.png"; path = "../../Downloads/free_retina_display_friendly_icons/png/tiny-user@2x.png"; sourceTree = "<group>"; };
-		588204151B40D69D001B9822 /* tiny-edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiny-edit.png"; path = "../../Downloads/Streamline - Free/PNG/tiny-edit.png"; sourceTree = "<group>"; };
-		588204161B40D69D001B9822 /* tiny-edit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiny-edit@2x.png"; path = "../../Downloads/Streamline - Free/PNG/tiny-edit@2x.png"; sourceTree = "<group>"; };
 		588204191B40E590001B9822 /* AddErrandsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddErrandsViewController.h; sourceTree = "<group>"; };
 		5882041A1B40E590001B9822 /* AddErrandsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddErrandsViewController.m; sourceTree = "<group>"; };
-		5882041C1B40EA3B001B9822 /* tiny-plus@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiny-plus@3x.png"; path = "../../Desktop/tiny-plus@3x.png"; sourceTree = "<group>"; };
-		5882041D1B40EA3B001B9822 /* tiny-plus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiny-plus@2x.png"; path = "../../Desktop/tiny-plus@2x.png"; sourceTree = "<group>"; };
 		588204201B41028F001B9822 /* Tiny Errands-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tiny Errands-Bridging-Header.h"; sourceTree = "<group>"; };
 		588204211B41028F001B9822 /* AddButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddButtonView.swift; sourceTree = "<group>"; };
 		588824071AA448720047F426 /* Tiny Errands.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tiny Errands.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -152,7 +100,6 @@
 		5888240C1AA448720047F426 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5888240E1AA448720047F426 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5888240F1AA448720047F426 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		588824171AA448720047F426 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5888241A1AA448720047F426 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		588824201AA448730047F426 /* Tiny ErrandsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tiny ErrandsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		588824251AA448730047F426 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -227,26 +174,9 @@
 		588824BE1AA44AF70047F426 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		588824BF1AA44AF70047F426 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		588824C01AA44AF70047F426 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		588825001AA451D10047F426 /* camera-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "camera-7.png"; path = "../../Desktop/JOBOS/camera-7.png"; sourceTree = "<group>"; };
-		588825011AA451D10047F426 /* camera-7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "camera-7@2x.png"; path = "../../Desktop/JOBOS/camera-7@2x.png"; sourceTree = "<group>"; };
-		588825021AA451D10047F426 /* circle-tick-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "circle-tick-7.png"; path = "../../Desktop/JOBOS/circle-tick-7.png"; sourceTree = "<group>"; };
-		588825031AA451D10047F426 /* circle-tick-7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "circle-tick-7@2x.png"; path = "../../Desktop/JOBOS/circle-tick-7@2x.png"; sourceTree = "<group>"; };
-		588825041AA451D10047F426 /* circle-user-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "circle-user-7.png"; path = "../../Desktop/JOBOS/circle-user-7.png"; sourceTree = "<group>"; };
-		588825051AA451D10047F426 /* circle-user-7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "circle-user-7@2x.png"; path = "../../Desktop/JOBOS/circle-user-7@2x.png"; sourceTree = "<group>"; };
-		588825061AA451D10047F426 /* connect-arrow-left-right-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "connect-arrow-left-right-7.png"; path = "../../Desktop/JOBOS/connect-arrow-left-right-7.png"; sourceTree = "<group>"; };
-		588825071AA451D10047F426 /* connect-arrow-left-right-7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "connect-arrow-left-right-7@2x.png"; path = "../../Desktop/JOBOS/connect-arrow-left-right-7@2x.png"; sourceTree = "<group>"; };
-		588825081AA451D10047F426 /* credit-card-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "credit-card-7.png"; path = "../../Desktop/JOBOS/credit-card-7.png"; sourceTree = "<group>"; };
-		588825091AA451D10047F426 /* credit-card-7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "credit-card-7@2x.png"; path = "../../Desktop/JOBOS/credit-card-7@2x.png"; sourceTree = "<group>"; };
-		5888250A1AA451D10047F426 /* earth-america-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "earth-america-7.png"; path = "../../Desktop/JOBOS/earth-america-7.png"; sourceTree = "<group>"; };
-		5888250B1AA451D10047F426 /* earth-america-7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "earth-america-7@2x.png"; path = "../../Desktop/JOBOS/earth-america-7@2x.png"; sourceTree = "<group>"; };
-		5888250C1AA451D10047F426 /* thumb-up-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thumb-up-7.png"; path = "../../Desktop/JOBOS/thumb-up-7.png"; sourceTree = "<group>"; };
-		5888250D1AA451D10047F426 /* thumb-up-7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thumb-up-7@2x.png"; path = "../../Desktop/JOBOS/thumb-up-7@2x.png"; sourceTree = "<group>"; };
+		5888250D1AA451D10047F426 /* thumb-up-7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thumb-up-7@2x.png"; path = "../../../Desktop/JOBOS/thumb-up-7@2x.png"; sourceTree = "<group>"; };
 		58B9B7E01B38D8D00013F650 /* ErrandsFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrandsFeedViewController.h; sourceTree = "<group>"; };
 		58B9B7E11B38D8D00013F650 /* ErrandsFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ErrandsFeedViewController.m; sourceTree = "<group>"; };
-		58B9B7EF1B3CC6C00013F650 /* FBGTimelineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBGTimelineCell.h; path = "../../Downloads/FB-Gallery-master/FB Gallery/FBGTimelineCell.h"; sourceTree = "<group>"; };
-		58B9B7F01B3CC6C00013F650 /* FBGTimelineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBGTimelineCell.m; path = "../../Downloads/FB-Gallery-master/FB Gallery/FBGTimelineCell.m"; sourceTree = "<group>"; };
-		58B9B7FA1B3D02AB0013F650 /* tiny-simle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiny-simle@2x.png"; path = "../../Downloads/Streamline - Free/PNG/tiny-simle@2x.png"; sourceTree = "<group>"; };
-		58B9B7FB1B3D02AB0013F650 /* tiny-smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiny-smile.png"; path = "../../Downloads/Streamline - Free/PNG/tiny-smile.png"; sourceTree = "<group>"; };
 		58EE0A201B52104F000E1DA5 /* TinyErrand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinyErrand.h; sourceTree = "<group>"; };
 		58EE0A211B52104F000E1DA5 /* TinyErrand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TinyErrand.m; sourceTree = "<group>"; };
 		58EE0A231B522447000E1DA5 /* PlayerCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerCellTableViewCell.h; sourceTree = "<group>"; };
@@ -308,13 +238,13 @@
 				586E357B1B4646E000EC2683 /* MyCustomTableViewCell.h */,
 				586E357C1B4646E000EC2683 /* MyCustomTableViewCell.m */,
 				588204211B41028F001B9822 /* AddButtonView.swift */,
-				58B9B7EF1B3CC6C00013F650 /* FBGTimelineCell.h */,
-				58B9B7F01B3CC6C00013F650 /* FBGTimelineCell.m */,
 				582E855F1B26809200108924 /* TinyUser.h */,
 				582E85601B26809200108924 /* TinyUser.m */,
 				588204201B41028F001B9822 /* Tiny Errands-Bridging-Header.h */,
 				58EE0A201B52104F000E1DA5 /* TinyErrand.h */,
 				58EE0A211B52104F000E1DA5 /* TinyErrand.m */,
+				584CFC5B1BB64D7A0001E4BF /* FBGTimelineCell.h */,
+				584CFC5C1BB64D7A0001E4BF /* FBGTimelineCell.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -323,7 +253,6 @@
 			isa = PBXGroup;
 			children = (
 				588825241AA453940047F426 /* ViewControllers */,
-				588824FF1AA44CD60047F426 /* Tabimages */,
 				5888243E1AA449500047F426 /* Stripe */,
 				588824091AA448720047F426 /* TinyErrands */,
 				588824231AA448730047F426 /* JobosTests */,
@@ -347,7 +276,8 @@
 			children = (
 				5888240E1AA448720047F426 /* AppDelegate.h */,
 				5888240F1AA448720047F426 /* AppDelegate.m */,
-				588824171AA448720047F426 /* Images.xcassets */,
+				584CFC661BB664E50001E4BF /* Images.xcassets */,
+				5888250D1AA451D10047F426 /* thumb-up-7@2x.png */,
 				588824321AA449500047F426 /* Main.storyboard */,
 				588824191AA448720047F426 /* LaunchScreen.xib */,
 				5888240A1AA448720047F426 /* Supporting Files */,
@@ -485,49 +415,6 @@
 			path = Checkout;
 			sourceTree = "<group>";
 		};
-		588824FF1AA44CD60047F426 /* Tabimages */ = {
-			isa = PBXGroup;
-			children = (
-				5882041C1B40EA3B001B9822 /* tiny-plus@3x.png */,
-				5882041D1B40EA3B001B9822 /* tiny-plus@2x.png */,
-				588204151B40D69D001B9822 /* tiny-edit.png */,
-				588204161B40D69D001B9822 /* tiny-edit@2x.png */,
-				58B9B7FA1B3D02AB0013F650 /* tiny-simle@2x.png */,
-				58B9B7FB1B3D02AB0013F650 /* tiny-smile.png */,
-				5881AFA51B38CA7B00606C25 /* tiny-dollar.png */,
-				5881AFA61B38CA7B00606C25 /* tiny-dollar@2xpng.png */,
-				5881AFA71B38CA7B00606C25 /* tiny-earth.png */,
-				5881AFA81B38CA7B00606C25 /* tiny-earth@2x.png */,
-				5881AFA91B38CA7B00606C25 /* tiny-friends.png */,
-				5881AFAA1B38CA7B00606C25 /* tiny-friends@2x.png */,
-				5881AFAB1B38CA7B00606C25 /* tiny-settings.png */,
-				5881AFAC1B38CA7B00606C25 /* tiny-settings@2x.png */,
-				5881AFAD1B38CA7B00606C25 /* tiny-user.png */,
-				5881AFAE1B38CA7B00606C25 /* tiny-user@2x.png */,
-				582564981AA456A00030A3BA /* plus-simple-7.png */,
-				582564991AA456A00030A3BA /* plus-simple-7@2x.png */,
-				5825649A1AA456A00030A3BA /* spanner-7.png */,
-				5825649B1AA456A00030A3BA /* spanner-7@2x.png */,
-				588825001AA451D10047F426 /* camera-7.png */,
-				5881AFA11B38C1C900606C25 /* circle-user-7.png */,
-				5881AFA21B38C1C900606C25 /* circle-user-7@2x.png */,
-				588825011AA451D10047F426 /* camera-7@2x.png */,
-				588825021AA451D10047F426 /* circle-tick-7.png */,
-				588825031AA451D10047F426 /* circle-tick-7@2x.png */,
-				588825041AA451D10047F426 /* circle-user-7.png */,
-				588825051AA451D10047F426 /* circle-user-7@2x.png */,
-				588825061AA451D10047F426 /* connect-arrow-left-right-7.png */,
-				588825071AA451D10047F426 /* connect-arrow-left-right-7@2x.png */,
-				588825081AA451D10047F426 /* credit-card-7.png */,
-				588825091AA451D10047F426 /* credit-card-7@2x.png */,
-				5888250A1AA451D10047F426 /* earth-america-7.png */,
-				5888250B1AA451D10047F426 /* earth-america-7@2x.png */,
-				5888250C1AA451D10047F426 /* thumb-up-7.png */,
-				5888250D1AA451D10047F426 /* thumb-up-7@2x.png */,
-			);
-			name = Tabimages;
-			sourceTree = "<group>";
-		};
 		588825241AA453940047F426 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -650,46 +537,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5881AFA31B38C1C900606C25 /* circle-user-7.png in Resources */,
-				588825141AA451D10047F426 /* connect-arrow-left-right-7.png in Resources */,
-				5882041F1B40EA3B001B9822 /* tiny-plus@2x.png in Resources */,
-				5882041E1B40EA3B001B9822 /* tiny-plus@3x.png in Resources */,
-				5825649C1AA456A00030A3BA /* plus-simple-7.png in Resources */,
-				5881AFB21B38CA7B00606C25 /* tiny-earth@2x.png in Resources */,
-				588825131AA451D10047F426 /* circle-user-7@2x.png in Resources */,
-				588825101AA451D10047F426 /* circle-tick-7.png in Resources */,
-				5881AFB41B38CA7B00606C25 /* tiny-friends@2x.png in Resources */,
 				5888241B1AA448720047F426 /* LaunchScreen.xib in Resources */,
-				588824181AA448720047F426 /* Images.xcassets in Resources */,
-				5888251A1AA451D10047F426 /* thumb-up-7.png in Resources */,
-				588825111AA451D10047F426 /* circle-tick-7@2x.png in Resources */,
-				5825649D1AA456A00030A3BA /* plus-simple-7@2x.png in Resources */,
 				5888248D1AA449500047F426 /* Info.plist in Resources */,
-				5881AFA41B38C1C900606C25 /* circle-user-7@2x.png in Resources */,
-				588204181B40D69D001B9822 /* tiny-edit@2x.png in Resources */,
-				58B9B7FD1B3D02AB0013F650 /* tiny-smile.png in Resources */,
-				5881AFB11B38CA7B00606C25 /* tiny-earth.png in Resources */,
-				5881AFB01B38CA7B00606C25 /* tiny-dollar@2xpng.png in Resources */,
-				5825649F1AA456A00030A3BA /* spanner-7@2x.png in Resources */,
-				5881AFB31B38CA7B00606C25 /* tiny-friends.png in Resources */,
-				588825171AA451D10047F426 /* credit-card-7@2x.png in Resources */,
-				5881AFB61B38CA7B00606C25 /* tiny-settings@2x.png in Resources */,
-				588825191AA451D10047F426 /* earth-america-7@2x.png in Resources */,
-				588825161AA451D10047F426 /* credit-card-7.png in Resources */,
-				588825121AA451D10047F426 /* circle-user-7.png in Resources */,
-				588825151AA451D10047F426 /* connect-arrow-left-right-7@2x.png in Resources */,
-				5881AFAF1B38CA7B00606C25 /* tiny-dollar.png in Resources */,
-				5888250F1AA451D10047F426 /* camera-7@2x.png in Resources */,
+				584CFC671BB664E50001E4BF /* Images.xcassets in Resources */,
 				5888251B1AA451D10047F426 /* thumb-up-7@2x.png in Resources */,
 				588824831AA449500047F426 /* Main.storyboard in Resources */,
-				58B9B7FC1B3D02AB0013F650 /* tiny-simle@2x.png in Resources */,
-				5881AFB71B38CA7B00606C25 /* tiny-user.png in Resources */,
-				5881AFB81B38CA7B00606C25 /* tiny-user@2x.png in Resources */,
-				588825181AA451D10047F426 /* earth-america-7.png in Resources */,
-				5888250E1AA451D10047F426 /* camera-7.png in Resources */,
-				588204171B40D69D001B9822 /* tiny-edit.png in Resources */,
-				5825649E1AA456A00030A3BA /* spanner-7.png in Resources */,
-				5881AFB51B38CA7B00606C25 /* tiny-settings.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -748,7 +600,6 @@
 				588824911AA449500047F426 /* STPCard.m in Sources */,
 				5888248B1AA449500047F426 /* STPOSXCheckoutWebViewAdapter.m in Sources */,
 				588824931AA449500047F426 /* STPToken.m in Sources */,
-				58B9B7F11B3CC6C00013F650 /* FBGTimelineCell.m in Sources */,
 				5888249A1AA449500047F426 /* LogInViewController.m in Sources */,
 				588824821AA449500047F426 /* EditPaymentsViewController.m in Sources */,
 				582E85611B26809200108924 /* TinyUser.m in Sources */,
@@ -761,6 +612,7 @@
 				588824891AA449500047F426 /* STPColorUtils.m in Sources */,
 				588824961AA449500047F426 /* EditFriendsViewController.m in Sources */,
 				588824101AA448720047F426 /* AppDelegate.m in Sources */,
+				584CFC5D1BB64D7A0001E4BF /* FBGTimelineCell.m in Sources */,
 				588824841AA449500047F426 /* STPAPIClient+ApplePay.m in Sources */,
 				588824971AA449500047F426 /* InboxViewController.m in Sources */,
 				5888249C1AA449500047F426 /* PaymentViewController.m in Sources */,
@@ -827,6 +679,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEFINES_MODULE = YES;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -870,6 +723,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				DEFINES_MODULE = YES;
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;

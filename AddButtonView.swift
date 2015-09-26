@@ -11,7 +11,7 @@ import UIKit
 class AddButtonView: UIButton {
 
     override func drawRect(rect: CGRect) {
-        var path = UIBezierPath(ovalInRect: rect)
+        let path = UIBezierPath(ovalInRect: rect)
         UIColor.blueColor().setFill()
         path.fill()
         
@@ -20,7 +20,7 @@ class AddButtonView: UIButton {
         
         //create path
         
-        var plusPath = UIBezierPath()
+        let plusPath = UIBezierPath()
         
         plusPath.lineWidth = plusHeight
         
